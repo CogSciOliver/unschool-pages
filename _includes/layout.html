@@ -1,0 +1,117 @@
+<!doctype html>
+<html
+	lang="en"
+	data-theme=""
+>
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+
+		<title>{{ title }} | Unschool Discoveries</title>
+		<meta
+			name="description"
+			content="{{ description }}"
+		/>
+
+		<link
+			rel="canonical"
+			href="https://unschooldiscoveries.com/unschooling{{ page.url }}"
+		/>
+
+		<meta
+			property="og:title"
+			content="{{ title }}"
+		/>
+		<meta
+			property="og:description"
+			content="{{ description }}"
+		/>
+		<meta
+			property="og:type"
+			content="article"
+		/>
+		<meta
+			property="og:url"
+			content="https://unschooldiscoveries.com/unschooling{{ page.url }}"
+		/>
+
+		<!-- CSS (relative to unschooling root) -->
+		<link rel="stylesheet" href="/bundle.css">
+
+		<!-- Fonts -->
+		<link
+			rel="preconnect"
+			href="https://fonts.googleapis.com"
+		/>
+		<link
+			rel="preconnect"
+			href="https://fonts.gstatic.com"
+			crossorigin
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700&display=swap"
+			rel="stylesheet"
+		/>
+
+		<script>
+			const saved = localStorage.getItem("theme");
+			if (saved)
+				document.documentElement.setAttribute("data-theme", saved);
+		</script>
+	</head>
+
+	<body>
+		<header class="site-header">
+			<nav class="container">
+				<a
+					href="//home.html"
+					class="logo"
+					>Unschool Discoveries</a
+				>
+				<div>
+					<a href="{{ '/' | url }}">Home</a>
+					<a href="/unschooling/topics/">Topics</a>
+					<a href="/unschooling/lab/">Lab</a>
+					<button
+						class="theme-toggle"
+						onclick="toggleTheme()"
+					>
+						Theme
+					</button>
+				</div>
+			</nav>
+		</header>
+
+		<main>
+			<article class="article">
+				<h1>{{ title }}</h1>
+				{{ content }}
+			</article>
+			<section>
+				<article class="callout">
+					written by Danii Oliver, author & illustrator of the
+					Unschool Discoveries series and the Unschool Pages Hub
+				</article>
+			</section>
+		</main>
+
+		<footer class="site-footer">
+			<div class="container">
+				<p>© {{ "now" | date: "%Y" }} Unschool Discoveries</p>
+			</div>
+		</footer>
+
+		<script>
+			function toggleTheme() {
+				const current =
+					document.documentElement.getAttribute("data-theme");
+				const next = current === "dark" ? "light" : "dark";
+				document.documentElement.setAttribute("data-theme", next);
+				localStorage.setItem("theme", next);
+			}
+		</script>
+	</body>
+</html>

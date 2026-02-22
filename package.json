@@ -1,0 +1,23 @@
+{
+  "name": "unschool-pages",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CogSciOliver/unschool-pages.git"
+  },
+  "keywords": [],
+  "author": "Danii Oliver",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CogSciOliver/unschool-pages/issues"
+  },
+  "homepage": "https://unschoolpages.unschooldiscoveries.com",
+  "dependencies": {
+    "@11ty/eleventy": "^3.1.2"
+  }
+}

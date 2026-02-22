@@ -1,0 +1,162 @@
+<!doctype html>
+<html
+	lang="en"
+	data-theme=""
+>
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+
+		<title>Style Guide | Unschool Discoveries</title>
+		<meta
+			name="description"
+			content="A lived cultural perspective on unschooling and self-directed learning."
+		/>
+
+		<link
+			rel="canonical"
+			href="https://unschooldiscoveries.com/unschooling/style-guide/"
+		/>
+
+		<meta
+			property="og:title"
+			content="Style Guide"
+		/>
+		<meta
+			property="og:description"
+			content="A lived cultural perspective on unschooling and self-directed learning."
+		/>
+		<meta
+			property="og:type"
+			content="article"
+		/>
+		<meta
+			property="og:url"
+			content="https://unschooldiscoveries.com/unschooling/style-guide/"
+		/>
+
+		<!-- CSS (relative to unschooling root) -->
+		<link rel="stylesheet" href="/bundle.css">
+
+		<!-- Fonts -->
+		<link
+			rel="preconnect"
+			href="https://fonts.googleapis.com"
+		/>
+		<link
+			rel="preconnect"
+			href="https://fonts.gstatic.com"
+			crossorigin
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700&display=swap"
+			rel="stylesheet"
+		/>
+
+		<script>
+			const saved = localStorage.getItem("theme");
+			if (saved)
+				document.documentElement.setAttribute("data-theme", saved);
+		</script>
+	</head>
+
+	<body>
+		<header class="site-header">
+			<nav class="container">
+				<a
+					href="//home.html"
+					class="logo"
+					>Unschool Discoveries</a
+				>
+				<div>
+					<a href="/">Home</a>
+					<a href="/unschooling/topics/">Topics</a>
+					<a href="/unschooling/lab/">Lab</a>
+					<button
+						class="theme-toggle"
+						onclick="toggleTheme()"
+					>
+						Theme
+					</button>
+				</div>
+			</nav>
+		</header>
+
+		<main>
+			<article class="article">
+				<h1>Style Guide</h1>
+				<h2>1. About</h2>
+<p>Brief description of the project and its design system.</p>
+<h2>2. Typography</h2>
+<ul>
+<li><strong>Font Family:</strong> [Primary Font], [Secondary Font]</li>
+<li><strong>Headings:</strong>
+<ul>
+<li>
+<h1>H1 Header</h1>
+</li>
+<li>
+<h2>H2 Header</h2>
+</li>
+<li>
+<h3>H3 Header</h3>
+</li>
+<li>
+<h4>H4 Header</h4>
+</li>
+</ul>
+</li>
+<li><strong>Paragraphs:</strong> Standard body copy text.</li>
+</ul>
+<h2>3. Colors</h2>
+<ul>
+<li>Primary: <code>#hex</code></li>
+<li>Secondary: <code>#hex</code></li>
+<li>Background: <code>#hex</code></li>
+</ul>
+<h2>4. Components</h2>
+<h3>Buttons</h3>
+<p><a href="#">Example Button</a></p>
+<h3>Blockquotes</h3>
+<blockquote>
+<p>Alert text here</p>
+</blockquote>
+<blockquote>
+<p>[!NOTE]
+This is a note callout. It can have multiple lines.</p>
+</blockquote>
+<h2>5. Layout Patterns</h2>
+<h3>Two Column</h3>
+<p>[Structure Example]</p>
+<h3>Sidebar</h3>
+<p>[Structure Example]</p>
+
+			</article>
+			<section>
+				<article class="callout">
+					written by Danii Oliver, author & illustrator of the
+					Unschool Discoveries series and the Unschool Pages Hub
+				</article>
+			</section>
+		</main>
+
+		<footer class="site-footer">
+			<div class="container">
+				<p>© 2026 Unschool Discoveries</p>
+			</div>
+		</footer>
+
+		<script>
+			function toggleTheme() {
+				const current =
+					document.documentElement.getAttribute("data-theme");
+				const next = current === "dark" ? "light" : "dark";
+				document.documentElement.setAttribute("data-theme", next);
+				localStorage.setItem("theme", next);
+			}
+		</script>
+	</body>
+</html>
