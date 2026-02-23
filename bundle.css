@@ -219,17 +219,14 @@ a:hover {
 ========================= */
 main {
 	position: relative;
-	/* must be very faded if background-color: var(--bg) ;*/
-
-	/* Layer 1: soft wavy gradient */
 	background-image: 
-  
+
     /* Layer 2: repeating notebook lines */ repeating-linear-gradient(
 		to bottom,
 		var(--primary-soft) 0px,
 		var(--dim) 1px,
 		transparent 1px,
-		transparent 1rem
+		transparent 1.9rem
 	);
 
 	background-repeat: repeat;

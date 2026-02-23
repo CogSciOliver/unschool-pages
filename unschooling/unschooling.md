@@ -17,10 +17,10 @@ Discover the freedom of **unschooling**, where curiosity leads, schedules fade, 
 
 ### What We Offer
 
-- **Chi'Va Tools & Resources:** Innovative apps and EMDR techniques for emotional support and learning facilitation.
+- **[Chi'Va](https://chivaapp.com) Tools & Resources:** Innovative apps and EMDR techniques for emotional support and learning facilitation.
 - **Guided Learning Experiences:** Activities, projects, and real-life challenges that spark curiosity.
 - **Community & Support:** Connect with parents, experts, and mentors who understand the journey.
-- **Inspiring Reads:** _Unschool Discoveries: Venturing into the Unknown_—a children's book to ignite curiosity and exploration.
+- **Inspiring Reads:** [_Unschool Discoveries: Venturing into the Unknown_](https://unschooldiscoveries.com/explore-the-series), a children's book to ignite curiosity and exploration.
 
 ### Get Started
 
@@ -31,6 +31,6 @@ Discover the freedom of **unschooling**, where curiosity leads, schedules fade, 
 
 ### Ready to Dive In?
 
-Unschooling is more than an education choice—it's a lifestyle of curiosity, growth, and self-discovery. Begin your family's adventure today!
+Unschooling is more than an education choice. It's a lifestyle of curiosity, growth, and self-discovery. Begin your family's adventure today!
 
 ### [Start Your Journey](/unschooling/what-is-unschooling) | [Learn More About Chi'Va](https://chivaapp.com) | [Explore My Book](https://unschooldiscoveries.com/explore-the-series)
