@@ -4,15 +4,11 @@ tags: lab
 description: Take a deep breath and you and your kids are now in control.
 ---
 # Unschooling Lab Notes
-
 First and foremost, **unschooling is NOT listening to other people telling you how to unschool your kids.**  
 If you’re going to Peter, Paul, Sally, and Suzie and taking their advice instead of listening to your kids… that’s schoolishness.  
 (Think: “I need an authority other than my kid to educate them.” Nope. Not unschooling.)
 
----
-
 ## Perspective
-
 If you go to **Danii, Akilah, Sue, Esther, Melissa, or Meghan**, come **not for your kids**. Come for:
 
 - **Deschooling** – breaking the old programming that says anyone knows more than you and your kid about what they actually need or want.  
@@ -24,10 +20,7 @@ If you go to **Danii, Akilah, Sue, Esther, Melissa, or Meghan**, come **not for 
 
 Yes, my kids are wild and free, but they don’t need to remain wallet-draining beasts of chaos. That’s my 2 cents.
 
----
-
 ## The 1-Cent Rule
-
 Ask yourself:  
 
 - What’s **your 1 cent**?  
@@ -37,10 +30,7 @@ Ask yourself:
 That’s the **only narrative and negotiation that matters** when asking:  
 *"What is unschooling? What can it look like?"*
 
----
-
 ## Why I Tell 1001 Tales
-
 Everything else out there is stuck in:  
 
 - Kindergarten → Elementary → High School → College  
@@ -56,12 +46,7 @@ In a world where Netflix is boss — yes, Netflix, call me — we can finally op
 - No Joneses  
 - No worrying that your kid will “suffer” without the status quo blueprint
 
----
-
 ## Definitions
-
-## Definitions
-
 **Unschooling is:**  
 A way of life where your child’s interests, curiosity, and choices drive their learning. It’s less about “covering curriculum” and more about **trusting the child as the expert on their own education**. You provide resources, support, and guidance — but the path is theirs to create. It’s messy, unpredictable, joyful, and real.
 
@@ -77,8 +62,6 @@ A structured or semi-structured education at home. Parents choose curriculum, pl
 **Self-Directed Learning is:**  
 The skill and habit of **choosing what, when, and how you learn**. It can apply to children, teens, and adults alike. This is the backbone of unschooling — **learning driven by curiosity and purpose**, not by mandates or external reward systems. It’s lifelong, portable, and infinitely adaptable.
 
----
-
 ## Parents as Lifelong Learners
 
 Parents **can be unschoolers too** — applying knowledge and life experience into endeavors that are **not jobs**.  
@@ -88,8 +71,6 @@ Parents **can be unschoolers too** — applying knowledge and life experience in
 
 One feels like forced labor with penalties and punishments.  
 The other is hard work you can pick up and put down, with the benefit of rest, sanity, and mental health care.
-
----
 
 You considered it.  
 You chose it.  

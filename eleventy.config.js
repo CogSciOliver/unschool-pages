@@ -1,5 +1,5 @@
 module.exports = function (eleventyConfig) {
-  eleventyConfig.addPassthroughCopy("bundle.css");
+	eleventyConfig.addPassthroughCopy("bundle.css");
 	eleventyConfig.addPassthroughCopy("assets");
 	return {
 		dir: {
