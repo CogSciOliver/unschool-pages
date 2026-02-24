@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Sitemap: https://unschoolpages.unschooldiscoveries.com/sitemap.xml
 Disallow: /readme.txt
-Disallow: /holder
+Disallow: /style-guide

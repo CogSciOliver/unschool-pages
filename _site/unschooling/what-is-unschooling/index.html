@@ -1,60 +1,26 @@
 <!doctype html>
-<html
-	lang="en"
-	data-theme=""
->
+<html lang="en" data-theme="">
 	<head>
-		<meta charset="UTF-8" />
-		<meta
-			name="viewport"
-			content="width=device-width, initial-scale=1.0"
-		/>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 		<title>What is Unschooling | Unschool Discoveries</title>
-		<meta
-			name="description"
-			content="Topic 1 SubTitle"
-		/>
+		<meta name="description" content="Topic 1 SubTitle">
 
-		<link
-			rel="canonical"
-			href="https://unschooldiscoveries.com/unschooling/unschooling/what-is-unschooling/"
-		/>
+		<link rel="canonical" href="https://unschooldiscoveries.com/unschooling/unschooling/what-is-unschooling/">
 
-		<meta
-			property="og:title"
-			content="What is Unschooling"
-		/>
-		<meta
-			property="og:description"
-			content="Topic 1 SubTitle"
-		/>
-		<meta
-			property="og:type"
-			content="article"
-		/>
-		<meta
-			property="og:url"
-			content="https://unschooldiscoveries.com/unschooling/unschooling/what-is-unschooling/"
-		/>
+		<meta property="og:title" content="What is Unschooling">
+		<meta property="og:description" content="Topic 1 SubTitle">
+		<meta property="og:type" content="article">
+		<meta property="og:url" content="https://unschooldiscoveries.com/unschooling/unschooling/what-is-unschooling/">
 
 		<!-- CSS (relative to unschooling root) -->
 		<link rel="stylesheet" href="/bundle.css">
 
 		<!-- Fonts -->
-		<link
-			rel="preconnect"
-			href="https://fonts.googleapis.com"
-		/>
-		<link
-			rel="preconnect"
-			href="https://fonts.gstatic.com"
-			crossorigin
-		/>
-		<link
-			href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700&display=swap"
-			rel="stylesheet"
-		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
 
 		<script>
 			const saved = localStorage.getItem("theme");
@@ -64,32 +30,90 @@
 	</head>
 
 	<body>
-		<header class="site-header">
-			<nav class="container">
-				<a
-					href="/"
-					class="logo"
-					>Unschool Discoveries</a
-				>
-				<div>
-					<a href="/">Home</a>
-					<a href="/unschooling/">Unschooling</a>
-					<a href="/lab/">Deschooling</a>
-					<button
-						class="theme-toggle"
-						onclick="toggleTheme()"
-					>
-						Theme
-					</button>
-				</div>
+		<header class="top-nav">
+			<a href="/" class="logo">Unschool Discoveries</a>
+			<nav>
+				<a href="/">Home</a>
+				<a href="/unschooling/">Unschooling</a>
+				<a href="/lab/">Deschooling</a>
+				<button class="theme-toggle" onclick="toggleTheme()">
+					Theme
+				</button>
 			</nav>
 		</header>
 
-		<main>
+		<button class="sidebar-toggle" onclick="openSidebar()">
+			☰ Menu
+		</button>
+		<div class="sidebar-overlay" id="sidebar-overlay" onclick="closeSidebar()"></div>
+
+		<aside class="sidebar" id="sidebar">
+			<nav>
+				<div class="sidebar-section">
+					<h3 onclick="toggleSection(this)">
+						Getting Started Topics:
+					</h3>
+					
+				</div>
+				<div class="sidebar-section open">
+					<h4 onclick="toggleSection(this)">
+						Unschooling FAQs <span class="arrow">▸</span>
+					</h4>
+					<ul class="sidebar-list">
+						
+						<li>
+							<a href="/unschooling/unschooling-from-inside/">Unschooling From the Inside</a>
+						</li>
+						
+						<li>
+							<a href="/unschooling/unschooling-is-personal/">Unschooling Is Personal</a>
+						</li>
+						
+						<li>
+							<a href="/unschooling/what-is-unschooling/">What is Unschooling</a>
+						</li>
+						
+						<li>
+							<a href="/unschooling/">The Unschool Pages Hub</a>
+						</li>
+						
+					</ul>
+				</div>
+
+				<div class="sidebar-section open">
+					<h4 onclick="toggleSection(this)">
+						The Deschooling Lab <span class="arrow">▸</span>
+					</h4>
+					<ul class="sidebar-list">
+						
+						<li>
+							<a href="/lab/">Coming Soon Deschooling Unpacked</a>
+						</li>
+						
+						<li>
+							<a href="/lab/unschooling-lab-notes/">Unschooling Lab Notes</a>
+						</li>
+						
+					</ul>
+				</div>
+				<div class="sidebar-section">
+					<h4 onclick="toggleSection(this)">
+						Stories <span class="arrow">▸</span>
+					</h4>
+					<ul class="sidebar-list">
+						<li>Coming Soon</li>
+						
+					</ul>
+				</div>
+			</nav>
+		</aside>
+
+		<!-- Main content -->
+		<main class="content">
 			<article class="article">
 				<h1>What is Unschooling</h1>
 				<p><em>What Unschooling Feels Like From the Inside...</em></p>
-<p><img src="https://unschooldiscoveries.com/images/unschooling.png" alt="Unschoolers Playing Phagwa"></p>
+<p><picture><source type="image/avif" srcset="/.11ty/image/?src=https%3A%2F%2Funschooldiscoveries.com%2Fimages%2Funschooling.png&width=1536&format=avif&via=transform 1536w"><source type="image/webp" srcset="/.11ty/image/?src=https%3A%2F%2Funschooldiscoveries.com%2Fimages%2Funschooling.png&width=1536&format=webp&via=transform 1536w"><img loading="lazy" decoding="async" src="/.11ty/image/?src=https%3A%2F%2Funschooldiscoveries.com%2Fimages%2Funschooling.png&width=1536&format=jpeg&via=transform" alt="Unschoolers Playing Phagwa" width="1536" height="1024"></picture></p>
 <h2>A Day Without a Bell</h2>
 <p>There is no rush in our mornings.
 No alarm slicing the dark.<br>
@@ -212,8 +236,7 @@ What is your child’s other parent or guardian’s one cent?</p>
 			</article>
 			<section>
 				<article class="callout">
-					written by Danii Oliver, author & illustrator of the
-					Unschool Discoveries series and the Unschool Pages Hub
+					written by Danii Oliver, author & illustrator...
 				</article>
 			</section>
 		</main>
@@ -225,6 +248,22 @@ What is your child’s other parent or guardian’s one cent?</p>
 		</footer>
 
 		<script>
+			function openSidebar() {
+				document.getElementById("sidebar").classList.add("active");
+				document
+					.getElementById("sidebar-overlay")
+					.classList.add("active");
+			}
+			function closeSidebar() {
+				document.getElementById("sidebar").classList.remove("active");
+				document
+					.getElementById("sidebar-overlay")
+					.classList.remove("active");
+			}
+			function toggleSection(header) {
+				const section = header.parentElement;
+				section.classList.toggle("open");
+			}
 			function toggleTheme() {
 				const current =
 					document.documentElement.getAttribute("data-theme");

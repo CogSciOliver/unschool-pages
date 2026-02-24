@@ -39,7 +39,10 @@
 		/>
 
 		<!-- CSS (relative to unschooling root) -->
-		<link rel="stylesheet" href="/bundle.css">
+		<link
+			rel="stylesheet"
+			href="/bundle.css"
+		/>
 
 		<!-- Fonts -->
 		<link
@@ -64,36 +67,98 @@
 	</head>
 
 	<body>
-		<header class="site-header">
-			<nav class="container">
-				<a
-					href="/"
-					class="logo"
-					>Unschool Discoveries</a
+		<header class="top-nav">
+			<a
+				href="/"
+				class="logo"
+				>Unschool Discoveries</a
+			>
+			<nav>
+				<a href="/">Home</a>
+				<a href="/unschooling/">Unschooling</a>
+				<a href="/lab/">Deschooling</a>
+				<button
+					class="theme-toggle"
+					onclick="toggleTheme()"
 				>
-				<div>
-					<a href="{{ '/' | url }}">Home</a>
-					<a href="/unschooling/">Unschooling</a>
-					<a href="/lab/">Deschooling</a>
-					<button
-						class="theme-toggle"
-						onclick="toggleTheme()"
-					>
-						Theme
-					</button>
-				</div>
+					Theme
+				</button>
 			</nav>
 		</header>
 
-		<main>
+		<button
+			class="sidebar-toggle"
+			onclick="openSidebar()"
+		>
+			☰ Menu
+		</button>
+		<div
+			class="sidebar-overlay"
+			id="sidebar-overlay"
+			onclick="closeSidebar()"
+		></div>
+
+		<aside
+			class="sidebar"
+			id="sidebar"
+		>
+			<nav>
+				<div class="sidebar-section">
+					<h3 onclick="toggleSection(this)">
+						Getting Started Topics:
+					</h3>
+					
+				</div>
+				<div class="sidebar-section open">
+					<h4 onclick="toggleSection(this)">
+						Unschooling FAQs <span class="arrow">▸</span>
+					</h4>
+					<ul class="sidebar-list">
+						{% for post in collections.unschooling %}
+						<li>
+							<a href="{{ post.url }}">{{ post.data.title }}</a>
+						</li>
+						{% endfor %}
+					</ul>
+				</div>
+
+				<div class="sidebar-section open">
+					<h4 onclick="toggleSection(this)">
+						The Deschooling Lab <span class="arrow">▸</span>
+					</h4>
+					<ul class="sidebar-list">
+						{% for post in collections.lab %}
+						<li>
+							<a href="{{ post.url }}">{{ post.data.title }}</a>
+						</li>
+						{% endfor %}
+					</ul>
+				</div>
+				<div class="sidebar-section">
+					<h4 onclick="toggleSection(this)">
+						Stories <span class="arrow">▸</span>
+					</h4>
+					<ul class="sidebar-list">
+						<li>Coming Soon</li>
+						{% for post in collections.stories %}
+						<li>
+							<a href="{{ post.url }}">{{ post.data.title }}</a>
+						</li>
+						{% endfor %}
+					</ul>
+				</div>
+			</nav>
+		</aside>
+
+		<!-- Main content -->
+		<main class="content">
 			<article class="article">
 				<h1>{{ title }}</h1>
 				{{ content }}
 			</article>
 			<section>
 				<article class="callout">
-					written by Danii Oliver, author & illustrator of the
-					Unschool Discoveries series and the Unschool Pages Hub
+					written by Danii Oliver, author & illustrator...
 				</article>
 			</section>
 		</main>
@@ -105,6 +170,22 @@
 		</footer>
 
 		<script>
+			function openSidebar() {
+				document.getElementById("sidebar").classList.add("active");
+				document
+					.getElementById("sidebar-overlay")
+					.classList.add("active");
+			}
+			function closeSidebar() {
+				document.getElementById("sidebar").classList.remove("active");
+				document
+					.getElementById("sidebar-overlay")
+					.classList.remove("active");
+			}
+			function toggleSection(header) {
+				const section = header.parentElement;
+				section.classList.toggle("open");
+			}
 			function toggleTheme() {
 				const current =
 					document.documentElement.getAttribute("data-theme");
