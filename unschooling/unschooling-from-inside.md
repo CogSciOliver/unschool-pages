@@ -1,202 +1,66 @@
 ---
-layout: layout.html
 title: Unschooling From the Inside
-tags: posts
-description: Unschooling Manifesto
----
-<hr>
-
-# Unschooling From the Inside
-
-## A Day Without a Bell
-
-There is no rush in our mornings.
-
-No alarm slicing the dark.  
-No backpacks lined up like compliance props.  
-No permission slips. No hurry.
-
-There is oatmeal boiling over because someone is reading while stirring.  
-There is a debate about whether moss is a plant or a colony.  
-There is a shirt used as a napkin and a conversation about why that costs money later.
-
-There is life.
-
-Unschooling does not begin with a curriculum.  
-It begins with trust.
-
+tags: unschooling
+description: What Unschool Pages of Our Lives Reveals About Unschooling
 ---
 
-## What Unschooling Is
+## What "Unschool Pages of Our Lives" Podcast Reveals
 
-Unschooling is self-directed learning lived in real time.
+The _Unschool Pages of Our Lives_ podcast offers a lived look at unschooling in motion. Through storytelling and everyday experiences, it highlights how curiosity unfolds naturally when children are given space to explore.
 
-It is children following interest into skill.  
-Curiosity into research.  
-Mistakes into mastery.
+Across episodes, listeners encounter:
 
-Learning happens:
+*   Real-life explorations — from field trips to weather safety discussions to nature-based discovery.
+*   Storytelling and imagination woven into daily life.
+*   Conversations sparked by genuine interests, such as gaming ecosystems or music.
+*   Reflections that present unschooling as a way of living, not merely a method.
+*   Dialogues with parents and authors who share their perspectives and journeys.
+    
+The strength of the podcast lies in its authenticity. It shows unschooling as it is lived — not theorized, but experienced.
 
-- In grocery stores  
-- On sidewalks  
-- In forests  
-- On trains  
-- Inside arguments  
-- Inside obsessions  
+## What It Communicates Clearly
+The podcast does an excellent job of:
+*   Offering a first-person view into unschooling life.
+*   Demonstrating how learning emerges without rigid structure.
+*   Providing relatable examples that make self-directed learning tangible and accessible.
 
-There is no artificial pacing.  
-No standardized sequence.  
-No bell dividing life into subjects.
+It celebrates curiosity and trust. It normalizes flexibility. It makes unschooling feel possible.
 
-Life is the subject.
+## What Often Remains Implicit
+What is less frequently articulated — though deeply present — is the internal shift required for this lifestyle to function sustainably.
 
----
+Unschooling depends on deschooling. The stories illustrate curiosity thriving, but they do not always name the internal process that made those moments possible:
+*   The unlearning of comparison.
+*   The release of performance-based definitions of intelligence.
+*   The discomfort adults experience when structure loosens.
+*   The shift from authority to partnership.
 
-## What Deschooling Is
+These are not surface adjustments. They are belief-level transformations.
 
-Deschooling is the undoing.
+## Why This Slice of Unschooling Life Matters
+It’s about seeing real days as they unfold — how curiosity drives learning, how conversations spark exploration, and how children move through their own interests naturally.
+It allows us to witness:
 
-Undoing the reflex that asks,  
-“Who is the authority here?”
+- How interests evolve without force.
+- How learning happens without schedules or assignments.
+- How everyday moments — cooking, building, playing, exploring — become learning opportunities.
+- How curiosity guides the day instead of a curriculum.
+- How rhythm and flow replace rigid routines.
+- How questions guide the day.
+    
 
-Undoing the fear that says,  
-“They will fall behind.”
+Looking inside the day-to-day reality helps demystify unschooling. It shifts the conversation from “Does this work?” to “This is how it works.”
 
-Undoing the habit of outsourcing judgment.
+These glimpses make unschooling tangible. They show the atmosphere, the pace, the organic movement of learning as it happens — not reconstructed after the fact, not filtered through curriculum language.
 
-Deschooling is not about removing school from a schedule.  
-It is about removing school from the nervous system.
+By looking inside these lived experiences, we can understand unschooling not as an idea, but as a practical, observable way of life.
 
-Adults go through it too.
-
-Especially adults.
-
----
-
-## Adults as Unschoolers
-
-Children are not the only learners here.
-
-Parents become unschoolers when they:
-
-- Follow their own nerdy fascinations  
-- Build ventures instead of waiting for permission  
-- Relearn rest  
-- Reclaim curiosity  
-- Admit when they were wrong  
-
-A job may be structured by someone else’s timeline.  
-A venture, project, or endeavor can be structured by your own.
-
-One feels externally directed.  
-One feels internally generated.
-
-Unschooling is the practice of choosing internal generation whenever possible.
-
----
-
-## What It Can Look Like
-
-It can look like:
-
-A child navigating a crowded market to find their mother at the register, learning pattern recognition and spatial awareness with their heart pounding like a thriller scene.
-
-It can look like spending six weeks obsessed with medieval siege engines and accidentally learning physics.
-
-It can look like failing to bake bread five times and understanding yeast through lived frustration.
-
-It can look like quiet mornings watching ants for 40 uninterrupted minutes.
-
-It can look wild.  
-It can look ordinary.  
-It can look nothing like school.
-
----
-
-## How Unschooling Relates to Homeschooling and Worldschooling
-
-Unschooling often exists within the broader category of homeschooling.
-
-Homeschooling simply means education happens outside conventional school.
-
-Unschooling is one approach within that landscape — one that centers self-directed learning rather than parent-designed curriculum.
-
-Worldschooling describes families who travel while learning, using countries, cultures, and geography as living context.
-
-Some worldschoolers unschool.  
-Some homeschool with structured plans.  
-Some blend methods.
-
-Unschooling is not defined by location.  
-It is defined by direction.
-
-The direction comes from curiosity.
-
----
-
-## What It Is Not
-
-It is not neglect.  
-It is not chaos.  
-It is not the absence of learning.
-
-It is the absence of coercion.
-
-Boundaries still exist.  
-Structure still exists.  
-Money still exists.  
-Laundry still exists.  
-Shirts are still not napkins.
-
-But participation in life is not postponed until adulthood.
-
----
-
-## A Different Narrative
-
-Most books and shows move through six or speeds:
-
-Kindergarten.  
-Elementary.  
-High school.  
-College.
-Then marriage.  
-Then Kids.  
-Nowadays: The 3rd Act Years (very new to the American entertainment platform outside of Golden Girls)
-
-Then rinse it's and repeat.
-
-Unschooling expands the storyline.
-
-Children do not live in waiting rooms.  
-They live now.
-
-There are more than four speeds.
-
-There are a thousand plus one born each day we live to have another experience.
-
-Unschool Discoveries is a record of those 1,001 slices of life.
-
----
-
-## The Only Negotiation That Matters
-
-What is your one cent?  
-What is your child’s one cent?  
-What is your child’s other parent or guardian’s one cent?
-
-That conversation —inside your own home— is the only narrative that defines what unschooling looks like for you.
-
-There is no single template.
-
-There is lived reality.
-
-If you are living it, considering it, or reclaiming your own curiosity alongside your children, welcome.
-
-Ready to explore more? Check out theses topics &rarr;
+### Ready to explore more? Check out more unschooling topics &rarr;
 ## Topics
 
-{% for post in collections.topic %}
+{% for post in collections.unschooling %}
 
 - [{{ post.data.title }}]({{ post.url}})
   {% endfor %}
+
+  
