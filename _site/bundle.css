@@ -98,7 +98,7 @@ body {
 	font-family: "Inter", system-ui, sans-serif;
 	background: var(--bg);
 	color: var(--text);
-	line-height: 1.8;
+	line-height: 2;
 	-webkit-font-smoothing: antialiased;
 	font-size: clamp(1rem, 1.05vw + 1rem, 1.125rem);
 	background: linear-gradient(
@@ -117,7 +117,7 @@ h1,
 h2,
 h3 {
 	font-family: "Poppins", sans-serif;
-	line-height: 1.15;
+	line-height: 1.2;
 	margin: 3rem 0 1.25rem;
 }
 
@@ -130,7 +130,7 @@ h2 {
 	font-weight: 600;
 }
 h3 {
-	font-size: 1.25rem;
+	font-size: clamp(1.2rem, 2vw, 1.25rem);
 	font-weight: 500;
 	color: var(--primary);
 }
@@ -226,7 +226,7 @@ main {
 		var(--primary-soft) 0px,
 		var(--dim) 1px,
 		transparent 1px,
-		transparent 1.9rem
+		transparent 2rem
 	);
 
 	background-repeat: repeat;
