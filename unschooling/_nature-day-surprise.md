@@ -1,0 +1,7 @@
+That said no rush on Whitney. I am holding off on the kids cleaning the bones until we identify them so we can do a whole lesson with our homeschool group.  We are thinking opossum now because just this Monday one kid found a momma in the park trash can when she hissed at him for throwing trash in the can. We later observed her while she played dead. Concerned about the heat, an escape route, and large birds of prey, they took the bin to the edge of the woods and laid it on its side so she could crawl out when ready. It was then the kids found out she was either giving birth or had just given birth. 
+
+It was amazing for all the kids to get a close up eyewitness account of nature at its finest. This is an experience they would not have had sitting behind desks in a school. They did their best not to disturb, but they were able to take pictures and left the bin alone after feeling she was safe to do as she pleased. It's getting hot in Texas after just 3 weeks ago it was only 14 degrees. Thus, we were all concerned that she lacked access to water while lying at the bottom of the black bin in direct sunlight. 
+
+Did we do the right thing? 
+
+After looking at her features and discussing we think the bones have similar shapes and sizes. But I won't rule out coyote, cat or dog until we get an expert's input. 
