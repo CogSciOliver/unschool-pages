@@ -1,0 +1,18 @@
+{
+  "name": "unschool-pages-rebuild",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Markdown-first Eleventy publication shell for Unschool Pages.",
+  "scripts": {
+    "dev": "npx @11ty/eleventy --serve",
+    "build": "npx @11ty/eleventy",
+    "clean": "rm -rf _site"
+  },
+  "author": "Danii Oliver",
+  "license": "ISC",
+  "homepage": "https://unschoolpages.unschooldiscoveries.com",
+  "dependencies": {
+    "@11ty/eleventy": "^3.1.2",
+    "@11ty/eleventy-img": "^6.0.4"
+  }
+}

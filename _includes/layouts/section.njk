@@ -1,0 +1,25 @@
+---
+layout: layouts/page-shell.njk
+---
+<section class="page-wrap">
+  {% include "partials/section-hero.njk" %}
+
+  {% if intro %}
+  <section class="section-block section-block--soft">
+    <div class="prose">
+      {{ content | safe }}
+    </div>
+  </section>
+  {% endif %}
+
+  <section class="section-block">
+    <div class="section-heading-row">
+      <div>
+        <p class="eyebrow">In this section</p>
+        <h2>{{ title }}</h2>
+      </div>
+    </div>
+    {% set posts = collections.posts | whereSection(section) %}
+    {% include "partials/card-grid.njk" %}
+  </section>
+</section>

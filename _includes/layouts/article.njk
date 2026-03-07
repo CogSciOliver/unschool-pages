@@ -1,0 +1,28 @@
+
+---
+layout: layouts/page-shell.njk
+---
+<article class="page-wrap article-wrap">
+  {% include "partials/article-header.njk" %}
+
+  <div class="article-grid">
+    <div class="article-body prose">
+      {{ content | safe }}
+    </div>
+
+    <aside class="article-aside">
+      <div class="side-note">
+        <p class="eyebrow">Section</p>
+        <h3><a href="/{{ section }}/">{{ section | readableSection | title }}</a></h3>
+        <p>{{ description }}</p>
+      </div>
+
+      {% if cta_text and cta_url %}
+      <div class="side-note side-note--cta">
+        <p class="eyebrow">Next step</p>
+        <a class="button button-primary button-block" href="{{ cta_url }}">{{ cta_text }}</a>
+      </div>
+      {% endif %}
+    </aside>
+  </div>
+</article>
