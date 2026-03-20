@@ -1,60 +1,49 @@
 ---
-layout: layouts/page-shell.njk
+layout: layouts/base.njk
 ---
-<section class="page-wrap home-page">
-  <div class="hero-panel">
-    <p class="eyebrow">A living notebook for unschooling families</p>
+<div class="browse-layout">
+  <section class="hero-panel notebook-panel">
+    <div class="eyebrow">A living notebook for unschooling families</div>
     <h1>{{ title }}</h1>
-    <p class="hero-copy">{{ description }}</p>
+    <p class="lede">{{ description }}</p>
     <div class="hero-actions">
-      <a class="button button-primary" href="/start-here/">Start Here</a>
-      <a class="button button-secondary" href="/community/">Join the Community</a>
+      <a class="button" href="/start-here/">Start Here</a>
+      <a class="button button--secondary" href="/topics/">Browse Topics</a>
     </div>
-  </div>
+  </section>
 
-  <section class="section-block">
-    <div class="section-heading-row">
-      <div>
-        <p class="eyebrow">Featured entry</p>
-        <h2>Begin with a strong first step</h2>
-      </div>
-    </div>
-    {% set featuredPost = collections.featuredPosts[0] %}
-    {% if featuredPost %}
-      {% set post = featuredPost %}
-      {% set featured = true %}
-      {% include "partials/post-card.njk" %}
-    {% endif %}
+  <section class="browse-grid">
+    <article class="panel panel--feature notebook-panel">
+      <div class="stamp">Featured Notebook Entry</div>
+      <h2>Begin with the path that lowers fear and raises clarity.</h2>
+      <p>Use the field guide to move between basics, deschooling, stories, rabbit holes, books, and community.</p>
+    </article>
+
+    <aside class="panel notebook-panel">
+      <div class="stamp">Choose Your Path</div>
+      <ul class="path-list">
+        {% for item in navigation %}
+        <li><a href="{{ item.url }}"><span>{{ item.icon }}</span>{{ item.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </aside>
   </section>
 
   <section class="section-block">
-    <div class="section-heading-row">
-      <div>
-        <p class="eyebrow">Choose your path</p>
-        <h2>Browse by pillar</h2>
-      </div>
+    <div class="section-heading">
+      <div class="stamp">Recent Entries</div>
+      <h2>Fresh from the notebook</h2>
     </div>
-    <div class="card-grid card-grid--3">
-      {% for group in navigation %}
-      <article class="path-card">
-        <div class="path-icon">{{ group.icon }}</div>
-        <h3><a href="/{{ group.key }}/">{{ group.title }}</a></h3>
-        <p>{{ group.description }}</p>
-      </article>
+    <div class="card-grid">
+      {% for post in collections.published | reverse %}
+        {% if loop.index <= 6 %}
+        <article class="post-card notebook-panel">
+          <div class="card-meta">{{ post.data.section | title }}</div>
+          <h3><a href="{{ post.url }}">{{ post.data.title }}</a></h3>
+          <p>{{ post.data.description }}</p>
+        </article>
+        {% endif %}
       {% endfor %}
     </div>
   </section>
-
-  <section class="section-block">
-    <div class="section-heading-row">
-      <div>
-        <p class="eyebrow">Recent entries</p>
-        <h2>Latest from the notebook</h2>
-      </div>
-      <a class="text-link" href="/topics/">Browse all topics</a>
-    </div>
-    {% set posts = collections.posts | reverse %}
-    {% set limit = 6 %}
-    {% include "partials/card-grid.njk" %}
-  </section>
-</section>
+</div>

@@ -1,6 +1,0 @@
-{% set limitCount = limit or posts.length %}
-<div class="card-grid">
-  {% for post in posts.slice(0, limitCount) %}
-    {% include "partials/post-card.njk" %}
-  {% endfor %}
-</div>

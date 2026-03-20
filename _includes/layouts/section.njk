@@ -1,25 +1,17 @@
 ---
-layout: layouts/page-shell.njk
+layout: layouts/base.njk
 ---
-<section class="page-wrap">
-  {% include "partials/section-hero.njk" %}
+<section class="page-main page-main--browse">
+  <article class="notebook-page article article--section">
+    <header class="article-header">
+      <h1>{{ title }}</h1>
+      {% if description %}
+        <p class="lede">{{ description }}</p>
+      {% endif %}
+    </header>
 
-  {% if intro %}
-  <section class="section-block section-block--soft">
-    <div class="prose">
+    <div class="article-body">
       {{ content | safe }}
     </div>
-  </section>
-  {% endif %}
-
-  <section class="section-block">
-    <div class="section-heading-row">
-      <div>
-        <p class="eyebrow">In this section</p>
-        <h2>{{ title }}</h2>
-      </div>
-    </div>
-    {% set posts = collections.posts | whereSection(section) %}
-    {% include "partials/card-grid.njk" %}
-  </section>
+  </article>
 </section>

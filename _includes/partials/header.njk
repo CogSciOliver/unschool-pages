@@ -1,0 +1,26 @@
+<header class="topbar">
+  <div class="topbar__left">
+    <button class="icon-button mobile-only" type="button" aria-label="Open field guide" aria-controls="sidebar" aria-expanded="false" onclick="toggleSidebar(true)">☰</button>
+    <a href="/" class="brand">Unschool Discoveries</a>
+  </div>
+
+  <nav class="topbar__nav desktop-only" aria-label="Primary">
+    <a href="/">Home</a>
+    <a href="/start-here/">Start Here</a>
+    <a href="/topics/">Topics</a>
+  </nav>
+
+  <div class="topbar__right">
+    <button class="theme-toggle desktop-only" type="button" onclick="toggleTheme()">Theme</button>
+    <button class="icon-button mobile-only" type="button" aria-label="Open menu" aria-controls="topbar-menu" aria-expanded="false" onclick="toggleTopMenu(true)">⋯</button>
+  </div>
+</header>
+
+<div class="topbar-menu" id="topbar-menu" hidden>
+  <nav class="topbar-menu__panel" aria-label="Mobile">
+    <a href="/">Home</a>
+    <a href="/start-here/">Start Here</a>
+    <a href="/topics/">Topics</a>
+    <button class="theme-toggle theme-toggle--menu" type="button" onclick="toggleTheme()">Toggle Theme</button>
+  </nav>
+</div>

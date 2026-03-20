@@ -1,18 +1,13 @@
 {
-  "name": "unschool-pages-rebuild",
-  "version": "2.0.0",
+  "name": "unschool-pages-notebook-shell",
+  "version": "2.1.0",
   "private": true,
-  "description": "Markdown-first Eleventy publication shell for Unschool Pages.",
   "scripts": {
-    "dev": "npx @11ty/eleventy --serve",
-    "build": "npx @11ty/eleventy",
-    "clean": "rm -rf _site"
+    "dev": "eleventy --serve",
+    "build": "eleventy"
   },
-  "author": "Danii Oliver",
-  "license": "ISC",
-  "homepage": "https://unschoolpages.unschooldiscoveries.com",
-  "dependencies": {
-    "@11ty/eleventy": "^3.1.2",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0",
     "@11ty/eleventy-img": "^6.0.4"
   }
 }

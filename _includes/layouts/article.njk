@@ -1,28 +1,36 @@
-
 ---
-layout: layouts/page-shell.njk
+layout: layouts/base.njk
 ---
-<article class="page-wrap article-wrap">
-  {% include "partials/article-header.njk" %}
+<div class="article-layout">
+  <article class="article notebook-page">
+    <header class="article-header">
+      {% if section %}<div class="stamp">{{ section | title }}</div>{% endif %}
+      <h1>{{ title }}</h1>
+      {% if description %}<p class="lede">{{ description }}</p>{% endif %}
+    </header>
 
-  <div class="article-grid">
-    <div class="article-body prose">
+    <div class="article-body">
       {{ content | safe }}
     </div>
+  </article>
 
-    <aside class="article-aside">
-      <div class="side-note">
-        <p class="eyebrow">Section</p>
-        <h3><a href="/{{ section }}/">{{ section | readableSection | title }}</a></h3>
-        <p>{{ description }}</p>
-      </div>
-
-      {% if cta_text and cta_url %}
-      <div class="side-note side-note--cta">
-        <p class="eyebrow">Next step</p>
-        <a class="button button-primary button-block" href="{{ cta_url }}">{{ cta_text }}</a>
-      </div>
-      {% endif %}
-    </aside>
-  </div>
-</article>
+  {% set related = collections.published | whereSection(section) | excludePage(page.url) %}
+  {% if related.length %}
+  <section class="section-block article-related">
+    <div class="section-heading">
+      <div class="stamp">Keep Going</div>
+      <h2>More from {{ section | title }}</h2>
+    </div>
+    <div class="card-grid card-grid--related">
+      {% for post in related %}
+        {% if loop.index <= 3 %}
+        <article class="post-card notebook-panel">
+          <h3><a href="{{ post.url }}">{{ post.data.title }}</a></h3>
+          <p>{{ post.data.description }}</p>
+        </article>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </section>
+  {% endif %}
+</div>

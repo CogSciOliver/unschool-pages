@@ -1,0 +1,57 @@
+:root {
+  --color-bg: rgb(237, 240, 251);
+  --color-surface: rgba(255, 255, 255, 0.82);
+  --color-paper: rgba(250, 250, 250, 0.96);
+  --color-text: #1f2937;
+  --color-muted: #667085;
+  --color-border: rgba(68, 84, 144, 0.16);
+  --color-border-strong: rgba(68, 84, 144, 0.28);
+  --color-primary: #3b57d0;
+  --color-primary-soft: rgba(59, 87, 208, 0.10);
+  --color-highlight: rgba(139, 162, 255, 0.34);
+  --color-shadow: rgba(15, 23, 42, 0.10);
+  --page-gradient: linear-gradient(94deg, rgba(238, 227, 255, 0.7) 0%, rgba(223, 244, 247, 0.7) 55%, rgba(245, 242, 232, 0.7) 100%);
+
+  --font-body: Inter, system-ui, sans-serif;
+  --font-display: Poppins, Inter, system-ui, sans-serif;
+
+  --header-height: 72px;
+  --sidebar-width: 320px;
+  --browse-max: 1160px;
+  --article-max: 760px;
+
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-7: 3rem;
+
+  --radius-sm: 12px;
+  --radius-md: 18px;
+  --radius-lg: 24px;
+  --shadow-1: 0 8px 20px var(--color-shadow);
+  --shadow-2: 0 18px 42px var(--color-shadow);
+
+  --z-header: 1000;
+  --z-rail: 1010;
+  --z-sidebar: 1020;
+  --z-scrim: 1015;
+  --z-menu: 1030;
+}
+
+[data-theme="dark"] {
+  --color-bg: #0f1220;
+  --color-surface: rgba(15, 23, 42, 0.84);
+  --color-paper: rgba(18, 26, 48, 0.94);
+  --color-text: #e5ecfb;
+  --color-muted: #aeb8d3;
+  --color-border: rgba(125, 162, 255, 0.18);
+  --color-border-strong: rgba(125, 162, 255, 0.32);
+  --color-primary: #8aa4ff;
+  --color-primary-soft: rgba(125, 162, 255, 0.16);
+  --color-highlight: rgba(125, 162, 255, 0.24);
+  --color-shadow: rgba(0, 0, 0, 0.36);
+  --page-gradient: linear-gradient(104deg, rgba(24, 14, 38, 0.96) 0%, rgba(10, 19, 52, 0.96) 58%, rgba(8, 34, 35, 0.96) 100%);
+}
