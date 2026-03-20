@@ -1,18 +1,44 @@
 <header class="topbar">
   <div class="topbar__left">
-    <button class="icon-button mobile-only" type="button" aria-label="Open field guide" aria-controls="sidebar" aria-expanded="false" onclick="toggleSidebar(true)">☰</button>
+    <button
+      class="icon-button mobile-only"
+      type="button"
+      data-sidebar-toggle
+      onclick="toggleSidebar()"
+      aria-label="Open field guide"
+      aria-controls="sidebar">
+      ☰
+    </button>
     <a href="/" class="brand">Unschool Discoveries</a>
   </div>
 
-  <nav class="topbar__nav desktop-only" aria-label="Primary">
-    <a href="/">Home</a>
-    <a href="/start-here/">Start Here</a>
-    <a href="/topics/">Topics</a>
-  </nav>
+  {# <div class="topbar__center"> #}
+    <nav class="topbar__nav desktop-only" aria-label="Primary">
+      <a href="/">Home</a>
+      <a href="/start-here/">Start Here</a>
+      <a href="/topics/">Topics</a>
+    </nav>
+  {# </div> #}
+
 
   <div class="topbar__right">
-    <button class="theme-toggle desktop-only" type="button" onclick="toggleTheme()">Theme</button>
-    <button class="icon-button mobile-only" type="button" aria-label="Open menu" aria-controls="topbar-menu" aria-expanded="false" onclick="toggleTopMenu(true)">⋯</button>
+    <button
+      class="theme-toggle desktop-only"
+      type="button"
+      onclick="toggleTheme()"
+      aria-label="Toggle theme">
+      Theme
+    </button>
+
+    <button
+      class="icon-button mobile-only"
+      type="button"
+      data-topbar-menu-toggle
+      onclick="toggleTopbarMenu()"
+      aria-label="Open menu"
+      aria-controls="topbar-menu">
+      ⋯
+    </button>
   </div>
 </header>
 
@@ -21,6 +47,6 @@
     <a href="/">Home</a>
     <a href="/start-here/">Start Here</a>
     <a href="/topics/">Topics</a>
-    <button class="theme-toggle theme-toggle--menu" type="button" onclick="toggleTheme()">Toggle Theme</button>
+    <button class="theme-toggle theme-toggle--menu" type="button" onclick="toggleTheme()">Theme</button>
   </nav>
 </div>

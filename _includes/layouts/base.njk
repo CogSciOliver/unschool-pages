@@ -22,10 +22,6 @@
 <body>
   {% include "partials/header.njk" %}
 
-  <button class="rail-toggle desktop-only" type="button" aria-label="Open field guide" aria-controls="sidebar" aria-expanded="false" onclick="toggleSidebar(true)">
-    <span class="rail-toggle__icon">☰</span>
-    <span class="rail-toggle__label">Field Guide</span>
-  </button>
 
   <div class="scrim" id="sidebar-scrim" hidden onclick="closeSidebar()"></div>
   <div class="scrim" id="menu-scrim" hidden onclick="closeTopMenu()"></div>
