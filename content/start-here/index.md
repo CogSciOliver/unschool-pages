@@ -41,6 +41,6 @@ I encourage you, my unschooling parent friend, don't just give up unschooling be
 Sometimes, so called or seemingly, a lack of ambition could just be a missing skilling set or the search to find the light switch. Unschooling at times can very well look like nothing at all. This is normal! And when you turn around to have a conversation with your kid, you might find yourself surprised there was a universe worth of data being processed by your kid. 
 
 ### Unschooling is a lifelong learner's journey. 
-We may ("Venture in the Unknown")[https://unschooldiscoveries.com/explore-the-series], make new discoveries, create a product, an actual thing from our entire experience or we may start over with another topic to simply acquire more knowledge and skill building. Unschooling can produce polymaths or subject matter experts all we as parents need to do is provide the resources our kids request and unlearn systems of performative control. 
+We may ["Venture in the Unknown"](https://unschooldiscoveries.com/explore-the-series), make new discoveries, create a product, an actual thing from our entire experience or we may start over with another topic to simply acquire more knowledge and skill building. Unschooling can produce polymaths or subject matter experts all we as parents need to do is provide the resources our kids request and unlearn systems of performative control. 
 
 Remember unschooling, It's Easy! 
