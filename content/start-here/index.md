@@ -6,8 +6,6 @@ section: start-here
 description: A calm mental focus for families exploring unschooling.
 ---
 
-# The 5 Ease Methodology
-
 ## Environment
 The phase of mastering all you have access to in your immediate environment.
 As you grow your environment grows to incorporate expanding frames of references and expanded exposure to new environments.
