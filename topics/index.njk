@@ -2,12 +2,12 @@
 layout: layouts/base.njk
 title: Topic Hubs
 permalink: /topics/
-description: Browse the notebook by recurring themes.
+description: Please, browse this notebook by recurring themes.
 ---
 <section class="section-hero notebook-panel">
   <div class="stamp">Topics</div>
   <h1>Topic Hubs</h1>
-  <p class="lede">Auto-generated trails that group related entries.</p>
+  <p class="lede">Auto-generated trails that group related stories.</p>
 </section>
 <section class="section-block">
   <div class="card-grid">
@@ -15,7 +15,7 @@ description: Browse the notebook by recurring themes.
     <article class="post-card notebook-panel">
       <div class="card-meta">Topic Hub</div>
       <h3><a href="/topics/{{ hub.slug }}/">{{ hub.slug | title }}</a></h3>
-      <p>{{ hub.items.length }} related entries.</p>
+      <p>{{ hub.items.length }} related stories.</p>
     </article>
     {% endfor %}
   </div>

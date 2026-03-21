@@ -16,6 +16,9 @@ body {
   background: var(--page-gradient);
 }
 
+h2, h3{
+      margin-bottom: 2rem
+}
 a {
   color: var(--color-primary);
 }

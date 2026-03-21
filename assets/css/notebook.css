@@ -14,8 +14,8 @@
     to bottom,
     transparent 0,
     transparent calc(2rem - 1px),
-    rgba(120, 150, 255, 0.10) calc(2rem - 1px),
-    rgba(120, 150, 255, 0.10) 2rem
+    rgba(120, 150, 255, 0.20) calc(2rem - 1px),
+    rgba(120, 150, 255, 0.20) 2rem
   );
   opacity: 0.85;
 }
@@ -31,7 +31,7 @@
 .section-heading h2,
 .article h2,
 .panel h2 {
-  padding: 0.75rem 1rem;
+  padding: 0;
   border-radius: 16px;
   background: linear-gradient(90deg, var(--color-highlight), transparent 72%);
 }
