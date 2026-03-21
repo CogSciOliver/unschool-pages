@@ -3,7 +3,7 @@ const { eleventyImageTransformPlugin } = require("@11ty/eleventy-img");
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
     formats: ["avif", "webp", "jpeg"],
-    widths: ["auto"],
+    widths: [480, 768, 1024],
     htmlOptions: {
       imgAttributes: {
         loading: "lazy",

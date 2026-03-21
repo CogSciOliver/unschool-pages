@@ -10,56 +10,57 @@ description: Unschooling is a relationship-first, curiosity-led way of living an
 topic_hubs: ["unschooling", "basics"]
 image: https://unschooldiscoveries.com/images/unschooling.png
 ---
-> Start with observation before optimization.
+> Start with observation before optimization or judgment. 
 
 
-*What Unschooling Feels Like From the Inside...*
-
-
-![Unschoolers Playing Phagwa]( {{ image }} )
+![Unschoolers Playing Phagwa]({{ image }})
 
 ## A Day Without a Bell
+*What Unschooling Feels Like From the Inside...*
+
 There is no rush in our mornings.
 No alarm slicing the dark.  
 No backpacks lined up like compliance props.  
 No permission slips. No hurry.
 
-There is oatmeal boiling over because someone is distracted by a science podcast and not stirring.  
+There **is** oatmeal boiling over because someone is distracted by a science podcast or game mission and not stirring.  
 There is a debate about whether moss is a plant or a colony.  
-There is a shirt used as a napkin and a conversation about why that costs money later.
-
-There is life. There are negotiations. There are lots of opinions. 
+There is a shirt used as a napkin and a conversation about why that costs money later. 
+There are negotiations.  
+There are lots of opinions.  
+There is life.  
 
 Unschooling does not begin with a curriculum.  
-It begins with trust and a willingness to live with children as roommates.
+It begins with trust, choice and a willingness to live with children as roommates.
 
 ## What Unschooling Is
-Unschooling is self-directed learning lived in real time.
+Unschooling is self-directed learning lived in real time.  
+**Interests** functionally developing into skills.  
+**Curiosity** functionally developing into research.  
+**Mistakes** functionally developing into mastery.
 
-It is children following interest into skill.  
-Curiosity into research.  
-Mistakes into mastery.
 
-Learning happens:
-
+*Learning happens:*
+- In the car
+- Listening to Ologies podcasts
 - In grocery stores  
 - On sidewalks  
 - In forests  
 - On trains 
-- In Cars  
+- Reading comics
 - Inside arguments  
 - Inside obsessions  
-- Playing Video Games
+- Playing video games
+- Trading Pokémon cards
+- When people of all ages have normal conversations 
 
 There is no artificial pacing.  
 No standardized sequence.  
-No bell dividing life into subjects.
-
-Life is the subject.
+No bell dividing life into subjects.  
+Life is the subject!
 
 ## What Deschooling Is
-Deschooling is the undoing.
-
+Deschooling is the undoing.  
 Undoing the reflex that asks,  
 “Who is the authority here?”
 
@@ -68,12 +69,12 @@ Undoing the fear that says,
 
 Undoing the habit of outsourcing judgment.
 
-Deschooling is not about removing school from a schedule.  
-It is about removing school from the nervous system.
+Deschooling is **not** about removing school from a schedule.  
+**It is about removing school from the nervous system.**  
 
-Adults go through it too.
+Kids who have been is school may need deschooling too. However, it is a practice adults who have been fully indoctrinated with schoolish ideals go through it too to shed tools of oppression, abuse, saying no for everything and performative power struggles. 
 
-Especially adults.
+There is more to unpack about deschooling ourselves in ["The Deschooling Lab"](/lab)
 
 ## Adults as Unschoolers
 Children are not the only learners here.

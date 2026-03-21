@@ -26,13 +26,13 @@ This may feel like a phase of total geeking out.
 ## Endeavor
 The phase of action or mastery. Doing something, getting answers or the completion of having learned a topic to your fullest extent at the time *(not exhaustive there is always more and new information coming out)*. This completion phase is never ending for lifelong learners. This phase may not happen in succession of all the other phases. You may need to go back and learn another topic to complement *Engagement* and *Experimentation* in order to acquire the skills needed to execute or realize a successful *Endeavor*. Endeavoring never fails. It always yields answers from a lesson learned from *Experimentation*. It may yield a profitable business idea, project or product, art or music, book or course, team or set of relationships.
 
-## For Your Mental Health Parents
-These phases are all part of a cycle. They are not levels for grading or judgment. They are mental focus points for us as parents to avoid internal panic. This is offered as a state of mind useful for imagining and generating ideas to get through a roadblock or overcome our own schoolishness. Your kid might jump past some phases quicker than others for various topics they enjoy or don't care for. Let them be. 
+## Parents, For Your Mental Health
+These phases are all part of many cycles your kid will experience. They are not levels for grading or judgment. They are mental focus points for us as parents to avoid internal panic rooted in our own schoolishness and old programming about what life "should be". I offer this as a state of mind useful for imagining and generating ideas to get through a roadblock or overcome our own schoolishness moments. Your kid might jump past some phases quicker than others for various topics they enjoy or don't care for. Let them be! 
 
 You will start to see, each phase can be revisited at varying times for varying durations as they endeavor towards the *Experimentation* phase. The completion of Experimentation may or may not inspire an *Endeavor* it should not be forced but rather encouraged so as to not build stress but assist in reaching a level of satisfaction your kid is happy with. 
 
 ## Notes of Encouragements 
-*I just realized 8 years later, there is a 6th E needed "Encouragement"*
+>I just realized 8 years later, there is a 6th E needed "Encouragement"
 
 I encourage you, my unschooling parent friend, don't just give up unschooling because it might seem difficult at any phase, or there are roadblocks. Simply go at your own pace. There is nothing to rush towards. No deadlines no tests no graduation, just live life with "your mini-me". Your kid and you are going to learn what you need to learn, let go of what doesn't serve you, then pick up later what you need when it's needed. 
 
