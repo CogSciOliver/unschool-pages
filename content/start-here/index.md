@@ -1,6 +1,6 @@
 ---
 layout: layouts/section.njk
-title: Start Here
+title: The 5 Ease Methodology
 permalink: /start-here/
 section: start-here
 description: A calm mental focus for families exploring unschooling.
