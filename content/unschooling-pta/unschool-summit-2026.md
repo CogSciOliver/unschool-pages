@@ -3,7 +3,7 @@ layout: layouts/article.njk
 title: Unschooling Summit Roundtables and Interviews
 nav_label: Unschooling Summit 2026
 permalink: /unschooling-pta/unschooling-summit-2026/
-section: unschooling-pta
+section: unschooling-PTA
 nav_order: 1
 format: Community Note
 description: Ways to support one another without importing institutional habits.
