@@ -3,10 +3,10 @@ layout: layouts/article.njk
 title: PDA All Day!
 nav_label: PDA All Day
 permalink: /unschooling-pta/pda-all-day/
-section: unschooling-pta
+section: stories
 nav_order: 1
-format: Community Note
-description: Ways to support one another without importing institutional habits.
+format: Story
+description: Ways to support one another (parent & child) without importing institutional habits.
 topic_hubs: ["community", "support"]
 ---
 
