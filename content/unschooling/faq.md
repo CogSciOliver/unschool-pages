@@ -32,4 +32,4 @@ This pondering I think can help us embody our cognition, embody our humanity and
 
 #### &rarr; Why can't I just forget all the harmful mindsets I've been taught?
 
-#### &rarr; Why does an external authority get to be the boss of my child? 
+#### &rarr; Why does an external "authority" get to be the boss of my child? 
