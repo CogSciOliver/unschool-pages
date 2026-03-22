@@ -10,3 +10,5 @@ description: Ways to support one another without importing institutional habits.
 topic_hubs: ["community", "support"]
 ---
 PTA here means practical care, coordination, and shared support.
+
+Email to join a community that is private, away from the social media corporate data mining eyes. A place where conversations happen in the moment then disappear as our words would when spoken in real time. 
