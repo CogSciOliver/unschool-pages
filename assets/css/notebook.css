@@ -17,7 +17,7 @@
     rgba(120, 150, 255, 0.20) calc(2rem - 1px),
     rgba(120, 150, 255, 0.20) 2rem
   );
-  opacity: 0.85;
+  opacity: 0.8;
 }
 
 .notebook-panel > *,

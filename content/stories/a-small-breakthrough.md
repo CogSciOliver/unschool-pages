@@ -7,6 +7,6 @@ section: stories
 nav_order: 1
 format: Story
 description: A simple everyday moment that changed how we saw learning.
-topic_hubs: ["stories", "confidence"]
+topic_hubs: ["short-stories", "confidence"]
 ---
 Some of the deepest shifts look ordinary while they are happening.

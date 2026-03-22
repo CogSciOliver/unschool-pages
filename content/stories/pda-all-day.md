@@ -6,8 +6,8 @@ permalink: /unschooling-pta/pda-all-day/
 section: stories
 nav_order: 1
 format: Story
-description: Ways to support one another (parent & child) without importing institutional habits.
-topic_hubs: ["community", "support"]
+description: A story about the ways we can support one another (parent & child) without importing institutional habits.
+topic_hubs: ["short-stories", "neurodivergence"]
 ---
 
 # The Day “No” Meant “Not Like That”
