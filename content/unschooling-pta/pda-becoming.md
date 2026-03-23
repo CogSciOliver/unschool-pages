@@ -3,7 +3,7 @@ layout: layouts/article.njk
 title: How PDA Kids Become Unschooling Parents
 nav_label: PDA
 permalink: /unschooling-pta/pda-becoming/
-section: unschooling-PTA
+section: The-Unschooling-PTA
 nav_order: 1
 format: Community Note
 description: A look at how fighting for and demanding our autonomy has lead to us defending and supporting our children's human right to autonomy. 

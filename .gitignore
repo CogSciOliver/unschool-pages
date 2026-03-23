@@ -2,6 +2,8 @@
 README.md
 MIGRATION.md
 _site/
+.vscode/
+.vscode/settings.json
 
 # Logs
 logs

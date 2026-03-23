@@ -70,8 +70,19 @@
           </button>
           <div class="sidebar-list-wrap">
             <ul class="sidebar-list">
-              <li><a href="/creator-danii-oliver/" {% if page.url=='/creator-danii-oliver/' %}aria-current="page" {% endif %}>Letter from the Author</a></li>
-              <li><a href="/creator-danii-oliver/authors-prologue/" {% if page.url=='/creator-danii-oliver/authors-prologue/' %}aria-current="page" {% endif %}>Author's Prologue</a></li>
+              {# <li><a href="/creator-danii-oliver/" {% if page.url=='/creator-danii-oliver/' %}aria-current="page" {% endif %}>Letter from the Author</a></li> #}
+              <li>
+                <a href="/creator-danii-oliver/manifesto/"
+                  {% if page.url=='/creator-danii-oliver/manifesto/' %}
+                  aria-current="page"
+                  {% endif %}>Manifesto</a>
+              </li>
+              <li>
+                <a href="/creator-danii-oliver/authors-prologue/"
+                  {% if page.url=='/creator-danii-oliver/authors-prologue/' %}
+                  aria-current="page"
+                  {% endif %}>Author's Prologue</a>
+              </li>
             </ul>
           </div>
         </section>

@@ -1,7 +1,7 @@
 ---
 layout: layouts/section.njk
-title: Unschooling PTA
+title: The Unschooling PTA
 permalink: /unschooling-pta/
-section: unschooling-PTA
+section: The-Unschooling-PTA
 description: Family support, organizing, and community glue.
 ---

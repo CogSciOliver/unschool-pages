@@ -3,9 +3,9 @@ layout: layouts/article.njk
 title: Building Community Glue Without Recreating School
 nav_label: Community Glue
 permalink: /unschooling-pta/community-glue/
-section: unschooling-PTA
+section: The-Unschooling-PTA
 nav_order: 1
-format: Community Note
+format: Let's Chat
 description: Ways to support one another without importing institutional habits.
 topic_hubs: ["community", "support"]
 ---

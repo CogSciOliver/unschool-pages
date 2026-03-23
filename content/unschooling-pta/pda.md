@@ -3,7 +3,7 @@ layout: layouts/article.njk
 title: Child & Adult PDA
 nav_label: PDA
 permalink: /unschooling-pta/pda/
-section: unschooling-PTA
+section: The-Unschooling-PTA
 nav_order: 1
 format: Community Note
 description: Looking how we might reframe power, agency, and what it means to be human.
