@@ -360,3 +360,13 @@ blockquote p {
   display: block;
   height: var(--space-4);
 }
+
+.inline-sort-toggle {
+  background: none;
+  border: 0;
+  padding: 0;
+  margin-left: 0.35rem;
+  font: inherit;
+  text-decoration: underline;
+  cursor: pointer;
+}
