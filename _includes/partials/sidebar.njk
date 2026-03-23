@@ -5,8 +5,7 @@
       type="button"
       onclick="toggleSidebar()"
       aria-label="Toggle field guide"
-      aria-controls="sidebar"
-    >
+      aria-controls="sidebar">
       ☰
     </button>
 
@@ -17,139 +16,149 @@
     <div class="sidebar__inner">
       <div class="sidebar__head">
         <div>
-          <div class="sidebar__title">Field Guide</div>
-          <p class="sidebar__intro">Browse the notebook by pillar, guide, and topic trail.</p>
+          <div class="sidebar__title">Unschool Pages Guide</div>
+          <p class="sidebar__intro">Browse my notebooks by pillar, guide, and topic trail.</p>
         </div>
 
         <button
           class="sidebar__close icon-button"
           type="button"
           onclick="closeSidebar()"
-          aria-label="Close field guide"
-        >
+          aria-label="Close field guide">
           ✕
         </button>
       </div>
 
       <nav class="sidebar-nav">
         {% if navigation and navigation.sections and navigation.sections.length %}
-          {% for group in navigation.sections %}
-          <section class="sidebar-section">
-            <button
-              class="sidebar-section-toggle"
-              type="button"
-              onclick="toggleSection(this)"
-              aria-expanded="true"
-            >
-              <span class="section-title">
-                {% if group.icon %}
-                  <span class="section-icon">{{ group.icon }}</span>
-                {% endif %}
-                {{ group.title }}
-              </span>
-              <span class="arrow">›</span>
-            </button>
+        {% for group in navigation.sections %}
+        <section class="sidebar-section">
+          <button
+            class="sidebar-section-toggle"
+            type="button"
+            onclick="toggleSection(this)"
+            aria-expanded="true">
+            <span class="section-title">
+              {% if group.icon %}
+              <span class="section-icon">{{ group.icon }}</span>
+              {% endif %}
+              {{ group.title }}
+            </span>
+            <span class="arrow">›</span>
+          </button>
 
-            <div class="sidebar-list-wrap">
-              <ul class="sidebar-list">
-                {% for item in group.items %}
-                <li>
-                  <a
-                    href="{{ item.url }}"
-                    {% if page.url == item.url %}aria-current="page"{% endif %}
-                  >
-                    {{ item.title }}
-                  </a>
-                </li>
-                {% endfor %}
-              </ul>
-            </div>
-          </section>
-          {% endfor %}
+          <div class="sidebar-list-wrap">
+            <ul class="sidebar-list">
+              {% for item in group.items %}
+              <li>
+                <a
+                  href="{{ item.url }}"
+                  {% if page.url==item.url %}aria-current="page" {% endif %}>
+                  {{ item.title }}
+                </a>
+              </li>
+              {% endfor %}
+            </ul>
+          </div>
+        </section>
+        {% endfor %}
         {% else %}
-          <section class="sidebar-section">
-            <button class="sidebar-section-toggle" type="button" onclick="toggleSection(this)" aria-expanded="true">
-              <span class="section-title"><span class="section-icon">✦</span> Start Here</span>
-              <span class="arrow">›</span>
-            </button>
-            <div class="sidebar-list-wrap">
-              <ul class="sidebar-list">
-                <li><a href="/start-here/" {% if page.url == '/start-here/' %}aria-current="page"{% endif %}>Overview</a></li>
-              </ul>
-            </div>
-          </section>
+        <section class="sidebar-section">
+          <button class="sidebar-section-toggle" type="button" onclick="toggleSection(this)" aria-expanded="true">
+            <span class="section-title"><span class="section-icon">✦</span>The Creator's Pages</span>
+            <span class="arrow">›</span>
+          </button>
+          <div class="sidebar-list-wrap">
+            <ul class="sidebar-list">
+              <li><a href="/creator-danii-oliver/" {% if page.url=='/creator-danii-oliver/' %}aria-current="page" {% endif %}>Letter from the Author</a></li>
+              <li><a href="/creator-danii-oliver/authors-prologue/" {% if page.url=='/creator-danii-oliver/authors-prologue/' %}aria-current="page" {% endif %}>Author's Prologue</a></li>
+            </ul>
+          </div>
+        </section>
 
-          <section class="sidebar-section">
-            <button class="sidebar-section-toggle" type="button" onclick="toggleSection(this)" aria-expanded="true">
-              <span class="section-title"><span class="section-icon">◎</span> Unschooling Basics</span>
-              <span class="arrow">›</span>
-            </button>
-            <div class="sidebar-list-wrap">
-              <ul class="sidebar-list">
-                <li><a href="/unschooling/" {% if page.url == '/unschooling/' %}aria-current="page"{% endif %}>Overview</a></li>
-              </ul>
-            </div>
-          </section>
+        <section class="sidebar-section">
+          <button class="sidebar-section-toggle" type="button" onclick="toggleSection(this)" aria-expanded="true">
+            <span class="section-title"><span class="section-icon">✦</span> Start Here</span>
+            <span class="arrow">›</span>
+          </button>
+          <div class="sidebar-list-wrap">
+            <ul class="sidebar-list">
+              <li><a href="/start-here/" {% if page.url=='/start-here/' %}aria-current="page" {% endif %}>The 5 Ease Methodology</a></li>
+            </ul>
+          </div>
+        </section>
 
-          <section class="sidebar-section">
-            <button class="sidebar-section-toggle" type="button" onclick="toggleSection(this)" aria-expanded="true">
-              <span class="section-title"><span class="section-icon">✎</span> Deschooling Lab</span>
-              <span class="arrow">›</span>
-            </button>
-            <div class="sidebar-list-wrap">
-              <ul class="sidebar-list">
-                <li><a href="/lab/" {% if page.url == '/lab/' %}aria-current="page"{% endif %}>Overview</a></li>
-              </ul>
-            </div>
-          </section>
+        <section class="sidebar-section">
+          <button class="sidebar-section-toggle" type="button" onclick="toggleSection(this)" aria-expanded="true">
+            <span class="section-title"><span class="section-icon">◎</span> Unschooling Basics</span>
+            <span class="arrow">›</span>
+          </button>
+          <div class="sidebar-list-wrap">
+            <ul class="sidebar-list">
+              <li><a href="/unschooling/" {% if page.url=='/unschooling/' %}aria-current="page" {% endif %}>Overview</a></li>
+            </ul>
+          </div>
+        </section>
 
-          <section class="sidebar-section">
-            <button class="sidebar-section-toggle" type="button" onclick="toggleSection(this)" aria-expanded="true">
-              <span class="section-title"><span class="section-icon">☁</span> Stories</span>
-              <span class="arrow">›</span>
-            </button>
-            <div class="sidebar-list-wrap">
-              <ul class="sidebar-list">
-                <li><a href="/stories/" {% if page.url == '/stories/' %}aria-current="page"{% endif %}>Overview</a></li>
-              </ul>
-            </div>
-          </section>
+        <section class="sidebar-section">
+          <button class="sidebar-section-toggle" type="button" onclick="toggleSection(this)" aria-expanded="true">
+            <span class="section-title"><span class="section-icon">✎</span>My Deschooling Lab</span>
+            <span class="arrow">›</span>
+          </button>
+          <div class="sidebar-list-wrap">
+            <ul class="sidebar-list">
+              <li><a href="/lab/" {% if page.url=='/lab/' %}aria-current="page" {% endif %}>Overview</a></li>
+            </ul>
+          </div>
+        </section>
 
-          <section class="sidebar-section">
-            <button class="sidebar-section-toggle" type="button" onclick="toggleSection(this)" aria-expanded="true">
-              <span class="section-title"><span class="section-icon">└</span> Rabbit Holes</span>
-              <span class="arrow">›</span>
-            </button>
-            <div class="sidebar-list-wrap">
-              <ul class="sidebar-list">
-                <li><a href="/rabbit-holes/" {% if page.url == '/rabbit-holes/' %}aria-current="page"{% endif %}>Overview</a></li>
-              </ul>
-            </div>
-          </section>
+        <section class="sidebar-section">
+          <button class="sidebar-section-toggle" type="button" onclick="toggleSection(this)" aria-expanded="true">
+            <span class="section-title"><span class="section-icon">☁</span> Stories</span>
+            <span class="arrow">›</span>
+          </button>
+          <div class="sidebar-list-wrap">
+            <ul class="sidebar-list">
+              <li><a href="/stories/" {% if page.url=='/stories/' %}aria-current="page" {% endif %}>Overview</a></li>
+            </ul>
+          </div>
+        </section>
 
-          <section class="sidebar-section">
-            <button class="sidebar-section-toggle" type="button" onclick="toggleSection(this)" aria-expanded="true">
-              <span class="section-title"><span class="section-icon">▣</span> Books</span>
-              <span class="arrow">›</span>
-            </button>
-            <div class="sidebar-list-wrap">
-              <ul class="sidebar-list">
-                <li><a href="/books/" {% if page.url == '/books/' %}aria-current="page"{% endif %}>Overview</a></li>
-              </ul>
-            </div>
-          </section>
+        <section class="sidebar-section">
+          <button class="sidebar-section-toggle" type="button" onclick="toggleSection(this)" aria-expanded="true">
+            <span class="section-title"><span class="section-icon">└</span> Rabbit Holes</span>
+            <span class="arrow">›</span>
+          </button>
+          <div class="sidebar-list-wrap">
+            <ul class="sidebar-list">
+              <li><a href="/rabbit-holes/" {% if page.url=='/rabbit-holes/' %}aria-current="page" {% endif %}>Overview</a></li>
+            </ul>
+          </div>
+        </section>
 
-          <section class="sidebar-section">
-            <button class="sidebar-section-toggle" type="button" onclick="toggleSection(this)" aria-expanded="true">
-              <span class="section-title"><span class="section-icon">♥</span> Unschooling PTA</span>
-              <span class="arrow">›</span>
-            </button>
-            <div class="sidebar-list-wrap">
-              <ul class="sidebar-list">
-                <li><a href="/unschooling-pta/" {% if page.url == '/unschooling-pta/' %}aria-current="page"{% endif %}>Overview</a></li>
-              </ul>
-            </div>
-          </section>
+        <section class="sidebar-section">
+          <button class="sidebar-section-toggle" type="button" onclick="toggleSection(this)" aria-expanded="true">
+            <span class="section-title"><span class="section-icon">▣</span> Books</span>
+            <span class="arrow">›</span>
+          </button>
+          <div class="sidebar-list-wrap">
+            <ul class="sidebar-list">
+              <li><a href="/books/" {% if page.url=='/books/' %}aria-current="page" {% endif %}>Overview</a></li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="sidebar-section">
+          <button class="sidebar-section-toggle" type="button" onclick="toggleSection(this)" aria-expanded="true">
+            <span class="section-title"><span class="section-icon">♥</span> Unschooling PTA</span>
+            <span class="arrow">›</span>
+          </button>
+          <div class="sidebar-list-wrap">
+            <ul class="sidebar-list">
+              <li><a href="/unschooling-pta/" {% if page.url=='/unschooling-pta/' %}aria-current="page" {% endif %}>Overview</a></li>
+            </ul>
+          </div>
+        </section>
         {% endif %}
       </nav>
     </div>

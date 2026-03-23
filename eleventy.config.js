@@ -32,7 +32,10 @@ module.exports = function (eleventyConfig) {
         map.get(tag).push(item);
       }
     }
-    return [...map.entries()].map(([slug, items]) => ({ slug, items }));
+
+    return [...map.entries()]
+      .map(([slug, items]) => ({ slug, items }))
+      .sort((a, b) => a.slug.localeCompare(b.slug));
   });
 
   eleventyConfig.addFilter("whereSection", function (items, section) {

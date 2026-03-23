@@ -8,15 +8,17 @@ description: Please, browse this notebook by recurring themes.
   <div class="stamp">Unschool Discoveries</div>
   <h1>Welcome to The Unschool Pages Topic Hub!</h1>
   <p class="lede">Please feel free to explore the stories I have written about by the topics you are interested in.</p>
+  <button type="button" id="topic-order-toggle" aria-pressed="false">
+    Show topics Z to A
+  </button>
 </section>
 <section class="section-block">
   <div class="card-grid">
     {% for hub in collections.topicHubs %}
     <article class="post-card notebook-panel">
       <div class="line-space-reset"></div>
-      <div class="card-meta">{{ hub.slug | title }}</div>
+      <div class="card-meta">{{ hub.slug | replace("-", " ") | title }}</div>
       <h3><a href="/topics/{{ hub.slug }}/">Explore the {{ hub.items.length }} related stories &rarr;</a></h3>
-      {# <p>{{ hub.items.length }} related stories.</p> #}
     </article>
     {% endfor %}
   </div>
