@@ -34,7 +34,10 @@ module.exports = function (eleventyConfig) {
     }
 
     return [...map.entries()]
-      .map(([slug, items]) => ({ slug, items }))
+      .map(([slug, items]) => ({
+        slug,
+        items: items.sort((a, b) => (a.data.title || "").localeCompare(b.data.title || ""))
+      }))
       .sort((a, b) => a.slug.localeCompare(b.slug));
   });
 
