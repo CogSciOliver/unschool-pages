@@ -6,7 +6,7 @@ permalink: /creator-danii-oliver/manifesto/
 section: creator-danii-oliver
 nav_order: 1
 format: Manifesto
-description: The line I am drawing in the sands of time and contribution to story by Danii Oliver - author, illustrator, documentarian, entertainer, and architect of the Unschool Discoveries Universe.
+description: The contribution I am making to the expansion of the unschooling story as the architect of the Unschool Discoveries Universe.
 topic_hubs: ["author", "creator"]
 image:
   - https://www.daniioliver.com/images/Danii-Oliver-AI-Consultant.png
@@ -109,7 +109,7 @@ I create work that may take the form of:
 * memoir and reflective writing
 * entertainment rooted in lived experience
 * story-driven media
-* whimsical discovery adventures like [Unschool Discoveries Book #1](/../book)
+* whimsical discovery adventures like [Unschool Discoveries Book #1](/../books)
 * documentary-style observations
 * creative cultural commentary
 * family-life worldbuilding
