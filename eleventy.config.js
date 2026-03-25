@@ -33,12 +33,19 @@ module.exports = function (eleventyConfig) {
       }
     }
 
-    return [...map.entries()]
-      .map(([slug, items]) => ({
-        slug,
-        items: items.sort((a, b) => (a.data.title || "").localeCompare(b.data.title || ""))
-      }))
-      .sort((a, b) => a.slug.localeCompare(b.slug));
+    return [...map.entries()].map(([slug, items]) => ({
+      slug,
+      items: items.sort((a, b) => {
+        const aPriority = a.data.hub_priority ?? 999;
+        const bPriority = b.data.hub_priority ?? 999;
+
+        if (aPriority !== bPriority) {
+          return aPriority - bPriority;
+        }
+
+        return (a.data.title || "").localeCompare(b.data.title || "");
+      })
+    }));
   });
 
   eleventyConfig.addFilter("whereSection", function (items, section) {
@@ -47,6 +54,19 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addFilter("excludePage", function (items, url) {
     return (items || []).filter((item) => item.url !== url);
+  });
+
+  eleventyConfig.addShortcode("ext", (text, url) => {
+    return `<a href="${url}" target="_blank" rel="noopener noreferrer" data-source="rabbit-holes">${text}</a>`;
+  });
+
+  eleventyConfig.addShortcode("anchor", (id) => {
+    return `<a class="anchor" id="${id}"></a>`;
+  });
+
+  eleventyConfig.addShortcode("jump", (text, id) => {
+    return `<a href="#${id}" data-source="rabbit-holes">${text}</a>`;
+
   });
 
   return {
@@ -59,3 +79,4 @@ module.exports = function (eleventyConfig) {
     htmlTemplateEngine: "njk"
   };
 };
+
