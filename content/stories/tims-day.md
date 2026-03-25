@@ -7,7 +7,7 @@ permalink: /stories/tims-day/
 section: stories
 format: Story
 description: A story about the ways we can support one another (parent & child) without importing institutional habits.
-topic_hubs: ["short-stories", "neurodivergence"]
+topic_hubs: ["short-stories"]
 ---
 
 Tim sat on the couch staring out the window as he had done all week. In the early morning, at first the windows were covered with fog. Tim didn't mind he watched the condensation drip-drip-fade. As the fog cleared, he noticed there were crystals on the blades of grass that glimmered just below where he sat in the window like gemstones as the sun rose and shifted it’s position in the sky. As the dew dried yellow specs began to appear. Dandelions wished him a great day as one became a ton in the blink of an eye. 

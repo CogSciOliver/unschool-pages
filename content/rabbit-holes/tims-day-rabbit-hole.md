@@ -75,4 +75,4 @@ Explore with you kids if you dare, the day Tim had and all he blared.
 Then add to their transcript if you must share all the learnings your kids now flare. 
 
 ## Transcript Bonus:(for parents legally obligated to document their kids day)
-
+{% ext "Free Transcrip", "/bonus/" %}
