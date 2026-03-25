@@ -23,6 +23,10 @@ a {
   color: var(--color-primary);
 }
 
+a[target="_blank"]::after {
+  content: " ↗";
+}
+
 img {
   display: block;
   max-width: 100%;
@@ -35,6 +39,25 @@ button {
 [hidden] {
   display: none !important;
 }
+
+pre {
+  margin: 0;
+  display: block;
+  unicode-bidi: isolate;
+  white-space: pre;
+  margin-block: 0em 0em;
+  margin-inline: 0px;
+  background-color: var(--highlighter);
+  width: fit-content;
+}
+
+code {
+  line-height: 1;
+  margin: 0;
+  font-size: 2rem;
+  font-family: var(--font-handwriting);
+}
+
 
 :root {
   --rail-width: 72px;
@@ -443,10 +466,7 @@ button {
 
   .page-main {
     padding:
-      var(--space-6)
-      max(var(--space-6), 5vw)
-      var(--space-7)
-      max(calc(var(--space-6) + var(--rail-width)), 6vw);
+      var(--space-6) max(var(--space-6), 5vw) var(--space-7) max(calc(var(--space-6) + var(--rail-width)), 6vw);
   }
 
   body.sidebar-open .page-main {

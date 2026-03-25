@@ -38,15 +38,15 @@
   padding: var(--space-6);
 }
 
-.post-card{
+.post-card {
   padding: var(--space-4);
 }
 
-.post-card p{
-  margin:0;
+.post-card p {
+  margin: 0;
 }
 
-.post-card h3{
+.post-card h3 {
   line-height: 2;
 }
 
@@ -56,7 +56,10 @@
   font-weight: 700;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   margin: 2rem 0 2rem;
   font-family: var(--font-handwriting);
   line-height: 1;
@@ -76,7 +79,7 @@ h1 {
   font-weight: 300;
 }
 
-h4{
+h4 {
   line-height: 2;
   letter-spacing: 1px;
   font-weight: 700;
@@ -370,4 +373,85 @@ blockquote p {
   font: inherit;
   text-decoration: underline;
   cursor: pointer;
+  background-image: var(--link-gradient);
+  color: transparent;
+  background-clip: text;
+}
+
+/* NEW Feature Posts */
+/* 
+CAN EXPAND TO 
+“New” → recent
+“Hot” → high engagement
+“Important” → author-selected
+“Rabbit hole” → deep dive 
+*/
+/* Featured "hub_priority: 1" Posts */
+.is-featured {
+  border-radius: 0;
+  background: var(--post-it);
+  border: 0px;
+  box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.08);
+  transform: rotate(2deg);
+}
+
+.is-featured::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 30px;
+  height: 50px;
+  background: linear-gradient(25deg,
+      rgba(0, 0, 0, 0.25) 0%,
+      rgba(0, 0, 0, 0.13) 42%,
+      transparent 43%);
+  clip-path: polygon(100% 0, 0 100%, 100% 100%);
+}
+
+.hub-badge {
+  float: right;
+  margin-left: 0.5rem;
+  background-color: var(--highlighter);
+  font-size: 2rem;
+  padding: .1rem 1rem;
+  transform: rotate(-9deg);
+  font-family: var(--font-handwriting);
+  line-height: .5 !important;
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.highlite {
+  background-color: var(--highlighter);
+  font-family: var(--font-handwriting);
+  width: fit-content;
+  /* font-size: 1.5rem;
+  margin-top: 1.5rem;
+  line-height: 1 !important;
+  color: var(--color-text); */
+}
+
+.anchor {
+  display: block;
+  position: relative;
+  top: -6rem;
+  height: 0;
+  visibility: hidden;
+}
+
+hr {
+  border: none;
+  border-top: 2px dashed var(--color-muted);
+  opacity: 0.5;
+  margin: 2rem 0;
+
+  display: block;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+  unicode-bidi: isolate;
+  overflow: hidden;
+  border-style: inset;
 }

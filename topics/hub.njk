@@ -14,9 +14,12 @@ layout: layouts/base.njk
 <section class="section-block">
   <div class="card-grid">
     {% for post in hub.items %}
-    <article class="post-card notebook-panel">
+    <article class="post-card notebook-panel{% if post.data.hub_priority == 1 %} is-featured{% endif %}">
       <div class="line-space-reset"></div>
       <div class="card-meta">{{ post.data.format | replace("-", " ") |  title }}</div>
+      {% if post.data.hub_priority == 1 %}
+        <span class="hub-badge">New!</span>
+      {% endif %}
       <h3><a href="{{ post.url }}">{{ post.data.title }}</a></h3>
       
       <p>{{ post.data.description }}</p>

@@ -2,15 +2,15 @@
 layout: layouts/article.njk
 title: PDA All Day!
 nav_label: PDA All Day
-permalink: /unschooling-pta/pda-all-day/
+permalink: /stories/pda-all-day/
 section: stories
-nav_order: 1
+nav_order: 3
 format: Story
 description: A story about the ways we can support one another (parent & child) without importing institutional habits.
 topic_hubs: ["short-stories", "neurodivergence"]
 ---
 
-# The Day “No” Meant “Not Like That”
+## The Day “No” Meant “Not Like That”
 
 I used to think learning had a rhythm.
 

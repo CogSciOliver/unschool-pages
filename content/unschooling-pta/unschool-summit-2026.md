@@ -1,6 +1,7 @@
 ---
 layout: layouts/article.njk
 title: Unschooling Summit Roundtables and Interviews
+hub_priority: 1
 nav_label: Unschooling Summit 2026
 permalink: /unschooling-pta/unschooling-summit-2026/
 section: The-Unschooling-PTA

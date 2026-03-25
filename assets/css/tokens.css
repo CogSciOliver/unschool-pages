@@ -11,6 +11,9 @@
   --color-highlight: rgba(139, 162, 255, 0.34);
   --color-shadow: rgba(15, 23, 42, 0.10);
   --page-gradient: linear-gradient(94deg, rgba(238, 227, 255, 0.7) 0%, rgba(223, 244, 247, 0.7) 55%, rgba(245, 242, 232, 0.7) 100%);
+  --link-gradient: linear-gradient(104deg, rgb(41, 24, 65) 0%, rgb(16, 30, 81) 58%, rgb(16, 66, 67) 100%);
+  --highlighter: rgb(3, 251, 255);
+  --post-it: rgb(252, 250, 207);
 
   --font-body: Inter, system-ui, sans-serif;
   --font-display: Poppins, Inter, system-ui, sans-serif;
@@ -58,4 +61,9 @@
   --color-highlight: rgba(125, 162, 255, 0.24);
   --color-shadow: rgba(0, 0, 0, 0.36);
   --page-gradient: linear-gradient(104deg, rgba(24, 14, 38, 0.96) 0%, rgba(10, 19, 52, 0.96) 58%, rgba(8, 34, 35, 0.96) 100%);
+  --link-gradient: linear-gradient(94deg, rgb(230, 215, 252) 0%, rgb(218, 247, 251) 55%, rgb(251, 246, 229) 100%);
+  --post-it: rgb(60, 34, 101);
+  /* --highlighter: rgb(24, 24, 22); */
+  --highlighter: rgba(0, 163, 168, 0.5);
+
 }

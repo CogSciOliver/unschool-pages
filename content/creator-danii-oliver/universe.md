@@ -6,7 +6,7 @@ permalink: /creator-danii-oliver/universe/
 section: creator-danii-oliver
 nav_order: 3
 format: Enter Here
-description: Step beyond the cave of compulsory systems and enter a living universe of unschooling, discovery, Self-directedness, and becoming.
+description: Step beyond the cave of compulsory systems and enter a living universe of unschooling discovery & becoming.
 topic_hubs: ["author", "intro", "short-stories"]
 image:
   - https://www.daniioliver.com/images/Danii-Oliver-AI-Consultant.png
