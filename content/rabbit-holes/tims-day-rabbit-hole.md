@@ -13,7 +13,7 @@ topic_hubs: ["curiosity", "science", "math", "animals", "facts"]
 
 ## Explore 
 Learn more about what Tim what was unknowningly explaining 
-[167](#167), [Clouds](#clouds), [Crows](#crows), [Dandelions](#dandelions), [Prime Numbers](#prime-numbers), [Roadrunners](#roadrunners), 
+[167](#167), [Clouds](#clouds), [Crows](#crows), [Dandelions](#dandelions), [Endangered Species](#endangered), [Prime Numbers](#prime-numbers), [Roadrunners](#roadrunners), 
 
 
 
@@ -29,6 +29,9 @@ Crows possess exceptional long-term memory and intelligence, enabling them to re
 
 ### Dandelions <a id="danelions"></a>
 Dandelions possess remarkable resilience and adaptive intelligence, enabling them to thrive in diverse environments by anchoring deep taproots that regenerate even after repeated removal. They disperse their seeds across vast distances using wind-borne parachutes, ensuring widespread propagation while providing early nourishment to pollinators and passing on survival advantages across generations
+
+### Endangered Species <a id="endangered"></a>
+Endangered species possess critical ecological significance and fragile population stability, characterized by rapidly declining numbers due to habitat loss, climate change, and human activity that disrupt natural systems. They play essential roles in maintaining biodiversity and ecosystem balance, and their survival depends on conservation efforts that protect habitats and preserve genetic diversity for future generations
 
 ### Roadrunners <a id="roadrunners"></a>
 Roadrunners possess remarkable speed, agility, and survival intelligence, allowing them to reach bursts of up to 20 miles per hour while navigating complex desert terrain with precision. They are opportunistic predators that can kill venomous prey like rattlesnakes by using strategic strikes and repeated blows, often working with environmental awareness and learned behavior to overcome dangerous animals and pass down effective hunting techniques to their young
