@@ -22,3 +22,32 @@ And then there was Kai.
 
 Kai didn’t refuse everything.
 That would have been easier to understand.
+
+Kai refused… *specifically*.
+
+“Do you want to do the volcano experiment?”
+“No.”
+
+Ten minutes later, baking soda and vinegar are exploding in the sink.
+
+“Hey, let’s go outside.”
+“No.”
+
+Five minutes later, shoes are on, door is open, wind already claimed.
+
+It wasn’t opposition. It was… authorship.
+
+But I didn’t have that language yet.
+
+At first, I tightened the structure.
+
+Not rigid. Just… clearer.
+More supportive. More intentional.
+
+“Okay, we’ll do this *after* lunch.”
+“Let’s just try for five minutes.”
+“You said you wanted to do this yesterday.”
+
+Each sentence felt reasonable. Loving, even.
+
+And yet, each one landed like a door closing.
