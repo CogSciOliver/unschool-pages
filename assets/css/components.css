@@ -440,10 +440,11 @@ CAN EXPAND TO
   visibility: hidden;
 }
 
-/* 
+
 hr {
   display: block;
-  height: 1.8rem; /* match one notebook line */
+  height: 1.8rem;
+  /* match one notebook line */
   margin: 0;
   border: 0;
   position: relative;
@@ -458,4 +459,4 @@ hr::before {
   top: 50%;
   border-top: 2px dashed var(--color-muted);
   transform: translateY(-50%);
-} */
+}
