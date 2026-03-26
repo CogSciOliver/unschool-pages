@@ -161,3 +161,41 @@ Learning that doesn’t need to be defended.
 And a kind of trust that only shows up when autonomy is left intact long enough to prove itself.
 
 <div class="chapter-break"></div>
+
+
+The other day, Kai handed me a cup.
+
+“Don’t drink it yet,” they said.
+
+I raised an eyebrow.
+
+They grinned.
+
+“Wait until I tell you.”
+
+And for the first time, I didn’t feel the urge to ask why.
+
+I just held the cup.
+
+And waited.
+
+<div class="chapter-break"></div>
+
+If this felt familiar, you’re probably already noticing it—the subtle tension between guidance and control, between offering and shaping.
+
+This is the kind of noticing we follow over on Unschool Pages.
+
+Not step-by-step systems.
+Not “how to make your child comply.”
+
+Just real moments, patterns, and shifts—shared as they unfold.
+
+<div class="chapter-break"></div>
+
+[If you’re walking this path too, come sit, take the ride with us →](https://unschoolpages.unschooldiscoveries.com/)
+
+Bring your questions.
+Bring your observations.
+Bring the things that don’t fit anywhere else.
+
+We’re building something that doesn’t need to.
