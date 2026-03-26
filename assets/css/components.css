@@ -287,8 +287,8 @@ li p {
 
 .article-body ul,
 .article-body ol {
-  margin: 0 0 2rem;
-  padding-left: var(--space-10);
+  margin: -2rem 0 2rem;
+  padding-left: var(--space-8);
 }
 
 .article-body blockquote,
