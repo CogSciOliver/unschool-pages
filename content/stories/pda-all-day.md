@@ -9,3 +9,5 @@ format: Story
 description: A story about the ways we can support one another (parent & child) without importing institutional habits.
 topic_hubs: ["short-stories", "neurodivergence", "support"]
 ---
+
+## The Day “No” Meant “Not Like That”
