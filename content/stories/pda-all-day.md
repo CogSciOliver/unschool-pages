@@ -39,8 +39,6 @@ It wasn’t opposition. It was… authorship.
 
 But I didn’t have that language yet.
 
----
-
 At first, I tightened the structure.
 
 Not rigid. Just… clearer.
@@ -54,13 +52,13 @@ Each sentence felt reasonable. Loving, even.
 
 And yet, each one landed like a door closing.
 
+<div class="chapter-break"></div>
+
 Kai would freeze. Or deflect. Or turn into a comedian mid-conversation—anything to dissolve the moment where choice slipped away.
 
 I started to feel like I was negotiating with a ghost.
 
 The more I tried to guide, the less anything moved.
-
----
 
 The shift didn’t come from a breakthrough.
 
@@ -91,14 +89,12 @@ Just a question.
 
 An opening.
 
----
+<div class="chapter-break"></div>
 
 That was the first time I saw it clearly:
 
 It was never about *not doing*.
 It was about *not being directed while doing*.
-
----
 
 So I began experimenting—not with curriculum, but with myself.
 
@@ -124,7 +120,7 @@ The same child.
 The same curiosity.
 But now it had space to breathe.
 
----
+<div class="chapter-break"></div>
 
 There were still “no’s.”
 
@@ -142,7 +138,7 @@ The “no” was never rejection.
 
 It was protection.
 
----
+<div class="chapter-break"></div>
 
 Unschooling, for us, stopped being about removing school.
 
@@ -152,7 +148,7 @@ The kind that hides inside helpfulness.
 Inside planning.
 Inside “just making sure they learn.”
 
----
+<div class="chapter-break"></div>
 
 Now, our days don’t have a rhythm I can map.
 
@@ -164,7 +160,7 @@ Learning that doesn’t need to be defended.
 
 And a kind of trust that only shows up when autonomy is left intact long enough to prove itself.
 
----
+<div class="chapter-break"></div>
 
 The other day, Kai handed me a cup.
 
@@ -182,7 +178,8 @@ I just held the cup.
 
 And waited.
 
----
+<div class="chapter-break"></div>
+
 If this felt familiar, you’re probably already noticing it—the subtle tension between guidance and control, between offering and shaping.
 
 This is the kind of noticing we follow over on Unschool Pages.
@@ -192,7 +189,7 @@ Not “how to make your child comply.”
 
 Just real moments, patterns, and shifts—shared as they unfold.
 
-If you’re walking this path too, come sit with us:
+If you’re walking this path too, come sit, take the ride with us:
 → https://unschoolpages.unschooldiscoveries.com/
 
 Bring your questions.
