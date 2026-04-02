@@ -71,8 +71,8 @@ Prime numbers possess fundamental mathematical significance and structural uniqu
 Roadrunners possess remarkable speed, agility, and survival intelligence, allowing them to reach bursts of up to 20 miles per hour while navigating complex desert terrain with precision. They are opportunistic predators that can kill venomous prey like rattlesnakes by using strategic strikes and repeated blows, often working with environmental awareness and learned behavior to overcome dangerous animals and pass down effective hunting techniques to their young
 
 ## The lessons Tim's Day Holds
-Explore with you kids if you dare, the day Tim had and all he blared.  
+Explore with your kids if you dare, the day Tim had and all he blared.  
 Then add to their transcript if you must share all the learnings your kids now flare. 
 
-## Transcript Bonus:(for parents legally obligated to document their kids day)
+## Transcript Bonus:(for parents legally obligated to document their kids' day)
 {% ext "Free Transcrip", "/bonus/" %}
