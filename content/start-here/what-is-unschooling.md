@@ -8,7 +8,7 @@ nav_order: 1
 format: Guide
 description: Unschooling is a relationship-first, curiosity-led way of living and learning. It does not mean "doing nothing" even if it looks like nothing is happening. It means seeing learning in real life. 
 topic_hubs: ["unschooling", "basics"]
-image: https://unschooldiscoveries.com/images/unschooling.png
+image: https://mri.unschooldiscoveries.com/unschooling.png
 ---
 > Start with observation before optimization or judgment.
 
@@ -53,7 +53,7 @@ Unschooling is self-directed learning lived in real time.
 - Inside obsessions  
 - Playing video games
 - Trading Pokémon cards
-- When people of all ages have normal conversations 
+- When people of all ages have normal conversations
 
 There is no artificial pacing.  
 No standardized sequence.  
@@ -74,7 +74,7 @@ Undoing the habit of outsourcing judgment.
 Deschooling is **not** about removing school from a schedule.  
 **It is about removing school from the nervous system.**  
 
-Kids who have been is school may need deschooling too. However, it is a practice adults who have been fully indoctrinated with schoolish ideals go through it too to shed tools of oppression, abuse, saying no for everything and performative power struggles. 
+Kids who have been is school may need deschooling too. However, it is a practice adults who have been fully indoctrinated with schoolish ideals go through it too to shed tools of oppression, abuse, saying no for everything and performative power struggles.
 
 There is more to unpack about deschooling ourselves in ["The Deschooling Lab"](/deschooling-lab)
 
@@ -104,11 +104,11 @@ It can look like:
 
 A child navigating a crowded market to find their mother at the register, learning pattern recognition and spatial awareness with their heart pounding like a thriller scene.
 
-It can look like playing Roblox with friends during special events and and intentionally learning how to tell time in order to no miss out. 
+It can look like playing Roblox with friends during special events and and intentionally learning how to tell time in order to no miss out.
 
 It can look like spending six weeks obsessed with medieval siege engines and accidentally learning physics.
 
-It can look like failing to bake bread five times and understanding yeast through lived frustration. 
+It can look like failing to bake bread five times and understanding yeast through lived frustration.
 
 It can look like quiet mornings watching ants for 40 uninterrupted minutes.
 
@@ -132,11 +132,11 @@ Some homeschool with structured plans.
 Some blend methods.
 
 Unschooling is not defined by location.  
-It is defined by direction. Self-Directed learning by the individual. 
+It is defined by direction. Self-Directed learning by the individual.
 And before you ask, Yes, kids do know what they want to learn. They may not articulate it with academic pedagogy but you will see them "try, fail, try, struggle, overcome, succeed" and that is you signal they are learning something.  
 
 The direction mostly comes from curiosity and relevance realizations.
-Usually they want something and to get it they make a fearless attempt and fail because they don't know how. They then practice alone, ask questions, ask for help or watch tutorials. They find a way just as they did when learning to walk. 
+Usually they want something and to get it they make a fearless attempt and fail because they don't know how. They then practice alone, ask questions, ask for help or watch tutorials. They find a way just as they did when learning to walk.
 
 Simply put learning or an education isn't merely memorizing facts in unschooling. It is more akin to embodied knowledge and active participation in interests, life skills.
 
