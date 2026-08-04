@@ -10,12 +10,12 @@ description: Unschooling is a relationship-first, curiosity-led way of living an
 topic_hubs: ["unschooling", "basics"]
 image: https://unschooldiscoveries.com/images/unschooling.png
 ---
-> Start with observation before optimization or judgment. 
-
+> Start with observation before optimization or judgment.
 
 ![Unschoolers Playing Phagwa]({{ image }})
 
 ## A Day Without a Bell
+
 *What Unschooling Feels Like From the Inside...*
 
 There is no rush in our mornings.
@@ -25,7 +25,7 @@ No permission slips. No hurry.
 
 There **is** oatmeal boiling over because someone is distracted by a science podcast or game mission and not stirring.  
 There is a debate about whether moss is a plant or a colony.  
-There is a shirt used as a napkin and a conversation about why that costs money later. 
+There is a shirt used as a napkin and a conversation about why that costs money later.
 There are negotiations.  
 There are lots of opinions.  
 There is life.  
@@ -34,19 +34,20 @@ Unschooling does not begin with a curriculum.
 It begins with trust, choice and a willingness to live with children as roommates.
 
 ## What Unschooling Is
+
 Unschooling is self-directed learning lived in real time.  
 **Interests** functionally developing into skills.  
 **Curiosity** functionally developing into research.  
 **Mistakes** functionally developing into mastery.
 
-
 *Learning happens:*
+
 - In the car
 - Listening to Ologies podcasts
 - In grocery stores  
 - On sidewalks  
 - In forests  
-- On trains 
+- On trains
 - Reading comics
 - Inside arguments  
 - Inside obsessions  
@@ -60,6 +61,7 @@ No bell dividing life into subjects.
 Life is the subject!
 
 ## What Deschooling Is
+
 Deschooling is the undoing.  
 Undoing the reflex that asks,  
 “Who is the authority here?”
@@ -74,13 +76,15 @@ Deschooling is **not** about removing school from a schedule.
 
 Kids who have been is school may need deschooling too. However, it is a practice adults who have been fully indoctrinated with schoolish ideals go through it too to shed tools of oppression, abuse, saying no for everything and performative power struggles. 
 
-There is more to unpack about deschooling ourselves in ["The Deschooling Lab"](/lab)
+There is more to unpack about deschooling ourselves in ["The Deschooling Lab"](/deschooling-lab)
 
 ## Adults as Unschoolers
+
 Children are not the only learners here.
 
 Parents become unschoolers when they:
-- Follow their own nerdy fascinations  
+
+- Follow their own nerdy fascinations
 - Build ventures instead of waiting for permission  
 - Relearn rest  
 - Reclaim curiosity  
@@ -95,6 +99,7 @@ One feels internally generated.
 Unschooling is the practice of choosing internal generation whenever possible.
 
 ## What It Can Look Like
+
 It can look like:
 
 A child navigating a crowded market to find their mother at the register, learning pattern recognition and spatial awareness with their heart pounding like a thriller scene.
@@ -113,6 +118,7 @@ It can look ordinary.
 It can look nothing like school.
 
 ## How Unschooling Relates to Homeschooling and Worldschooling
+
 Unschooling often exists within the broader category of homeschooling.
 
 Homeschooling (as a title not a methodology) simply means education happens outside conventional school.
@@ -135,7 +141,8 @@ Usually they want something and to get it they make a fearless attempt and fail 
 Simply put learning or an education isn't merely memorizing facts in unschooling. It is more akin to embodied knowledge and active participation in interests, life skills.
 
 ## What It Is Not
-It is not neglect.   
+
+It is not neglect.
 It is not the absence of learning.
 
 It is the absence of coercion.
@@ -149,6 +156,7 @@ Shirts are still not napkins.
 But participation in life is not postponed until adulthood.
 
 ## A Different Narrative
+
 Most books and shows move through six or seven phases of life:
 Kindergarten.  
 Elementary.  
@@ -172,6 +180,7 @@ There are a thousand plus one born each day we live to have another experience.
 Unschool Discoveries is a record of those 1,001 slices of life.
 
 ## The Only Negotiation That Matters
+
 What is your one cent?  
 What is your child’s one cent?  
 What is your child’s other parent or guardian’s one cent?
