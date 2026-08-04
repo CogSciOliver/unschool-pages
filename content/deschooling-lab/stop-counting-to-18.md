@@ -1,15 +1,18 @@
 ---
 layout: layouts/article.njk
 title: Stop Counting to 18
-subtitle: When “later” becomes never and home becomes somewhere to escape
-nav_label: Removing 18 as the End
+nav_label: 18 Not the End
 permalink: /deschooling-lab/stop-counting-to-18/
 section: the-lab
 nav_order: 1
 format: Lab Notes
-description: What happens when kids stop asking? Explore how repeated dismissal, conditional belonging, and the countdown to eighteen can erode the parent-child relationship—then decolonize your mind and raise free people.
+description: What happens when kids stop asking? Explore how repeated dismissal, conditional belonging, and the countdown to eighteen can erode the parent-child relationship.
 topic_hubs: ["deschooling", "mindset", "empowering parents"]
 ---
+
+## When “later” becomes never and home becomes somewhere to escape
+
+What happens when kids stop asking? Explore how repeated dismissal, conditional belonging, and the countdown to eighteen can erode the parent-child relationship.
 
 > This Lab Note continues the rabbit hole opened in [Part 3: Are We Even Present for Our Kids?](https://unschoolpages.substack.com/p/are-we-even-present-for-our-kids)
 
