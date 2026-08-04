@@ -1,0 +1,45 @@
+---
+layout: layouts/base.njk
+title: Page Not Found
+description: This page wandered away from the Unschool Pages notebook. Choose another topic and keep exploring.
+permalink: /404.html
+eleventyExcludeFromCollections: true
+---
+
+<section class="section-hero notebook-panel">
+  <div class="stamp">Page Not Found</div>
+  <h1>This page wandered off.</h1>
+  <p class="lede">
+    The notebook entry may have moved, changed names, or followed another rabbit hole.
+    Choose a topic below to keep exploring.
+    <button type="button" id="topic-order-toggle" aria-pressed="false" class="inline-sort-toggle">
+      Sort topics below from Z to A
+    </button>
+  </p>
+
+  <div class="hero-actions">
+    <a class="button" href="/">Return Home</a>
+    <a class="button button--secondary" href="/start-here/">Start Here</a>
+  </div>
+</section>
+
+<section class="section-block" aria-labelledby="topic-trails-heading">
+  <div class="section-heading">
+    <div class="stamp">Choose Another Trail</div>
+    <h2 id="topic-trails-heading">Keep exploring the notebook</h2>
+  </div>
+
+  <div class="card-grid" id="topic-grid">
+    {% for hub in collections.topicHubs | sort(attribute="slug") %}
+      <article class="post-card notebook-panel">
+        <div class="line-space-reset"></div>
+        <div class="card-meta">{{ hub.slug | replace("-", " ") | title }}</div>
+        <h3>
+          <a href="/topics/{{ hub.slug }}/">
+            Explore the {{ hub.items.length }} related stories &rarr;
+          </a>
+        </h3>
+      </article>
+    {% endfor %}
+  </div>
+</section>
