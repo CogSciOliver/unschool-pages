@@ -4,11 +4,14 @@ title: "When $5,000 Costs $1,287,207,000,000"
 permalink: "/rabbit-holes/when-$5000-costs-over-1t/"
 section: rabbit-holes
 description: "A real-world math exercise for pulling apart rhetoric, propaganda, and political promises when the math doesn't math."
+image: https://substackcdn.com/image/fetch/$s_!cdr7!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F89020d28-1639-4ca2-ac3d-d4300646db2f_1672x941.png
 ---
+![decillion counting]({{ image }})
 
 **$1,287,207,000,000**
-
 What a fun number for kids who obsess over contemplating infinity and other ridiculously large whole numbers. Decillion is my favorite!
+
+[Get The Bonus Excersise](/bonus/financial-critical-thinking-exercise/)
 
 ## Now, A Special Look at Why $5,000 Isn’t Really Worth $5,000
 
@@ -192,9 +195,8 @@ Then we can discuss what makes something a bribe versus lobbying, an incentive, 
 
 Like: Is directly offering money in exchange for someone’s specific vote different from promising a financial benefit if voters give one political party power?
 
-**Get the full exercise download with a list of mad questions you can ask.**
-
-[Full Exercise Download](https://unschoolpages.unschooldiscoveries.com/)
+**Get the full exercise instruction with a list of deep dive questions you can ask.**
+[Get The Bonus Excersise](/bonus/financial-critical-thinking-exercise/)
 
 I’m not answering those questions for my kids. Because we’re no longer talking about whether **$5,000** sounds nice, we’re now investigating a financial claim and what that means.
 

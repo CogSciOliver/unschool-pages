@@ -5,6 +5,7 @@ permalink: /bonus/financial-critical-thinking-exercise/
 section: exercise
 description: "What Else Haven't We Counted? A financial critical-thinking exercise for examining numbers, purchasing power, political promises, and persuasive language."
 ---
+[Back To The Story](/rabbit-holes/when-$5000-costs-over-1t/)
 
 ## What Else Haven't We Counted?
 
@@ -728,3 +729,5 @@ Maybe not.
 *Paid subscribers received this exercise as a dividend for supporting Unschool Pages.*
 
 *See what I did there?*
+
+[Back To The Story](/rabbit-holes/when-$5000-costs-over-1t/)

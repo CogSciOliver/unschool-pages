@@ -6,7 +6,7 @@ permalink: /creator-danii-oliver/
 section: creator-danii-oliver
 nav_order: 0
 format: Guide
-description: The growing record behind Unschool Pages and Unschool Discoveries.
+description: The growing record behind The Unschool Pages Hub and Unschool Discoveries.
 topic_hubs: ["author"]
 image:
   - https://www.daniioliver.com/images/Danii-Oliver-AI-Consultant.png
