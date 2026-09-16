@@ -7,6 +7,7 @@ description: "What Else Haven't We Counted? A financial critical-thinking exerci
 permalink: /bonus/financial-critical-thinking-exercise/
 nav_order: 1
 bonus_label: "Financial Critical Thinking Exercise"
+topic_hubs: ["bonus", "exercises", "learning-tools"]
 ---
 [Back To The Story](/rabbit-holes/when-$5000-costs-over-1t/)
 

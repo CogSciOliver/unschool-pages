@@ -6,6 +6,7 @@ description: (For parents legally obligated to document their child’s day lear
 permalink: /bonus/kitchen-science-transcript/
 format: Transcript
 bonus_label: "Kitchen Science Transcript"
+topic_hubs: ["bonus"]
 ---
 
 ## Reader Bonus: Research Transcript 

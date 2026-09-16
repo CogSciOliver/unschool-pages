@@ -6,7 +6,7 @@ description: For parents legally obligated to document their child’s day or ov
 permalink: /bonus/transcript/
 format: Transcript
 nav_order: 2
-
+topic_hubs: ["bonus"]
 ---
 
 ## Reader Bonus: Research Transcript
