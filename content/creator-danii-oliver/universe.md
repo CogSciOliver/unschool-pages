@@ -1,9 +1,9 @@
 ---
 layout: layouts/article.njk
 title: The Universe of Unschooling
+date: 2026-03-23
 nav_label: Welcome
 permalink: /creator-danii-oliver/universe/
-section: creator-danii-oliver
 nav_order: 3
 format: Enter Here
 description: Step beyond the cave of compulsory systems and enter a living universe of unschooling discovery & becoming.

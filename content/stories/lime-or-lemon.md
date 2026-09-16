@@ -1,9 +1,9 @@
 ---
 layout: layouts/article.njk
 title: The Lime That Tried to Become a Lemon
+date: 2026-04-02
 nav_label: Lime or Lemon
 permalink: /stories/lime-lemon/
-section: stories
 format: Story
 description: A child discovers that a yellow lime is not a lemon, opening a natural learning journey through observation, ripening, classification, and curiosity-led science at home.
 topic_hubs: ["short-stories", "science", "experimentation"]

@@ -1,9 +1,9 @@
 ---
 layout: layouts/article.njk
 title: What Is Unschooling?
+date: 2026-03-07
 nav_label: What Is Unschooling?
 permalink: /start-here/what-is-unschooling/
-section: start-here
 nav_order: 1
 format: Guide
 description: Unschooling is a relationship-first, curiosity-led way of living and learning. It does not mean "doing nothing" even if it looks like nothing is happening. It means seeing learning in real life. 

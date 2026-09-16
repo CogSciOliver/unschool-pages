@@ -1,6 +1,6 @@
 module.exports = {
-  title: "v1.0.10 The Unschool Pages of Unschool Discoveries",
-  description: "A living storybook for unschooling families by Danii Oliver.",
+  title: "Unschool Pages Hub",
+  description: "The living publishing hub for notes, stories, rabbit holes, fandom, art, and ideas growing around the Unschool Discoveries universe.",
   url: "https://unschoolpages.unschooldiscoveries.com",
   brand: "Unschool Pages Hub"
 };

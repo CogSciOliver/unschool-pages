@@ -1,10 +1,9 @@
 ---
 layout: layouts/article.njk
 title: Tim's Day Rabbit Hole
+date: 2026-03-25
 nav_label: Tim's Day Rabbit Hole
 permalink: /rabbit-holes/tims-day-rabbit-hole/
-section: rabbit-holes
-sectionTitle: rabbit holes
 nav_order: 1
 format: More Facts
 description: One obsession can open into a whole living curriculum.

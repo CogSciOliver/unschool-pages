@@ -1,13 +1,13 @@
 ---
 layout: layouts/article.njk
 title: Stop Counting to 18
+date: 2026-08-03
 nav_label: 18 Not the End
 permalink: /deschooling-lab/stop-counting-to-18/
-section: the-lab
 nav_order: 1
 format: Lab Notes
 description: What happens when kids stop asking? Explore how repeated dismissal, conditional belonging, and the countdown to eighteen can erode the parent-child relationship.
-topic_hubs: ["deschooling", "mindset", "empowering parents"]
+topic_hubs: ["deschooling", "mindset", "empowering-parents"]
 ---
 
 ## When “later” becomes never and home becomes somewhere to escape

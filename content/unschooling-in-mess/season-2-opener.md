@@ -1,13 +1,13 @@
 ---
 layout: layouts/article.njk
 title: The Season of Mess
+date: 2026-03-30
 nav_label: Season Opener
 permalink: /unschooling-in-mess/season-opener/
-section: Episodes
 nav_order: 1
 format: Episode
 description: Unschooling in the Middle of a Messy 2025. An Unschooling Year When Life Breaks the Plan. 
-topic_hubs: ["short-stories", "season 2", "episodes"]
+topic_hubs: ["short-stories", "season-2", "episodes"]
 ---
 2025 began with intention.
 

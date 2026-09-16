@@ -147,3 +147,5 @@ vite.config.ts.timestamp-*
 
 # repo zips
 *.zip
+unschool-pages-canon-2026-09-15/
+_drafts/

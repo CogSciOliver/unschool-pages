@@ -1,14 +1,14 @@
 ---
 layout: layouts/article.njk
 title: Miko's Lemon Lime Rabbit Hole
+date: 2026-04-02
 nav_label: Miko's Lemon Lime Rabbit Hole
 permalink: /rabbit-holes/lime-lemon-rabbit-hole/
-section: rabbit-holes
-sectionTitle: rabbit holes
 nav_order: 1
 format: More Facts
 description: One obsession can open into a whole living curriculum.
 topic_hubs: ["curiosity", "science", "math", "animals", "facts"]
+bonus: transcript-kitchen-science
 ---
 
 [Back To The Story](/stories/lime-or-lemon/)

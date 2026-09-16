@@ -1,9 +1,9 @@
 ---
 layout: layouts/article.njk
 title: PDA All Day!
+date: 2026-03-22
 nav_label: PDA All Day
 permalink: /stories/pda-all-day/
-section: stories
 nav_order: 3
 format: Story
 description: A story about the ways we can support one another (parent & child) without importing institutional habits.

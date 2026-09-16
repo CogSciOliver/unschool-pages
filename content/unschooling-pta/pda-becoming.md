@@ -1,13 +1,13 @@
 ---
 layout: layouts/article.njk
 title: How PDA Kids Become Unschooling Parents
+date: 2026-03-22
 nav_label: PDA
 permalink: /unschooling-pta/pda-becoming/
-section: The-Unschooling-PTA
 nav_order: 1
 format: Community Note
 description: A look at how fighting for and demanding our autonomy has lead to us defending and supporting our children's human right to autonomy. 
-topic_hubs: ["unschooling-PTA","PDA", "neurodivergence","community", "support"]
+topic_hubs: ["unschooling-pta", "pda", "neurodivergence", "community", "support"]
 ---
 
 They call us disruptive.  

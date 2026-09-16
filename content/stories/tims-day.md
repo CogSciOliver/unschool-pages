@@ -1,10 +1,10 @@
 ---
 layout: layouts/article.njk
 title: Tim's Windowed Day
+date: 2026-03-25
 hub_priority: 1
 nav_label: Tim's Windowed Day
 permalink: /stories/tims-day/
-section: stories
 format: Story
 description: A story about the ways we can support one another (parent & child) without importing institutional habits.
 topic_hubs: ["short-stories"]

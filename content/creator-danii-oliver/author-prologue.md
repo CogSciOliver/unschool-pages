@@ -1,9 +1,9 @@
 ---
 layout: layouts/article.njk
 title: Author's Prologue
+date: 2026-03-23
 nav_label: Prologue
 permalink: /creator-danii-oliver/authors-prologue/
-section: creator-danii-oliver
 nav_order: 2
 format: Prologue
 description: The creative vision, worldview, and narrative purpose behind The Unschool Pages and Unschool Discoveries.

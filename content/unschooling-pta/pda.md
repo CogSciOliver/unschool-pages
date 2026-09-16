@@ -1,13 +1,13 @@
 ---
 layout: layouts/article.njk
 title: Child & Adult PDA
+date: 2026-03-22
 nav_label: PDA
 permalink: /unschooling-pta/pda/
-section: The-Unschooling-PTA
 nav_order: 1
 format: Community Note
 description: Looking how we might reframe power, agency, and what it means to be human.
-topic_hubs: ["unschooling-PTA","PDA", "neurodivergence","community", "support"]
+topic_hubs: ["unschooling-pta", "pda", "neurodivergence", "community", "support"]
 ---
 
 ## Open Submission Call: "Community PDA Interview"

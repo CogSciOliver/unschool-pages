@@ -106,7 +106,7 @@ li p {
   margin: 0;
 }
 
-.hero-actions {
+.actions {
   display: flex;
   flex-wrap: wrap;
   gap: var(--space-3);

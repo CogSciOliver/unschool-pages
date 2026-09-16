@@ -1,13 +1,13 @@
 ---
 layout: layouts/article.njk
 title: The Season of Mess Episode 1
+date: 2026-03-30
 nav_label: Episode 1
 permalink: /unschooling-in-mess/episode-01/
-section: Episodes
 nav_order: 2
 format: Episode
 description: The realization that our environment was no longer supporting your family’s natural learning or our humanity. 
-topic_hubs: ["short-stories", "season 2", "episodes"]
+topic_hubs: ["short-stories", "season-2", "episodes"]
 image: https://substackcdn.com/image/fetch/$s_!G5ub!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb04027ee-23df-44e4-8e6b-099dc02aa13d_1536x1024.png
 ---
 <div class="mobile-line-space-reset"></div>

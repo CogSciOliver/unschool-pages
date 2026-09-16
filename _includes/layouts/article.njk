@@ -1,26 +1,95 @@
 ---
 layout: layouts/base.njk
 ---
+
+{# CANON: directory section + parent-owned bonus #}
+{% set currentSection = page | contentSection %}
+{% set attachedBonus = collections.bonusContent | bonusFor(bonus) %}
 <div class="article-layout">
   <article class="article notebook-page">
     <header class="article-header">
-      {% if section %}<div class="stamp">{{ section | replace("-", " ") | title }}</div>{% endif %}
+      {% if currentSection %}<div class="stamp">{{ currentSection | sectionLabel }}</div>{% endif %}
       <div class="line-space-reset"></div>
       <h1>{{ title }}</h1>
       {% if description %}<p class="lede">{{ description }}</p>{% endif %}
     </header>
 
-    <div class="article-body">
+        {% if attachedBonus %}
+    <div class="article-bonus-cta">
+      <a
+        class="card-meta article-bonus-link"
+        href="{{ attachedBonus.url }}"
+      >
+        Bonus:
+        {{ attachedBonus.data.bonus_label or attachedBonus.data.title }}
+        →
+      </a>
+    </div>
+  {% endif %}
+
+  <div class="article-body">
       {{ content | safe }}
     </div>
+    <hr class="article-divider" />
+    <p>Remember Unschooling, It's Easy!" --Danii Oliver</p>
   </article>
 
-  {% set related = collections.published | whereSection(section) | excludePage(page.url) %}
+
+  {# BONUS CONTENT CONNECTED TO THIS ARTICLE #}
+
+
+
+  {% if attachedBonus %}
+
+  <section class="section-block article-bonus">
+
+    <div class="section-heading">
+      <div class="stamp">Bonus Content</div>
+      <h2>Keep going</h2>
+    </div>
+
+    <div class="card-grid card-grid--related">
+
+      <article class="post-card notebook-panel">
+
+        {% if attachedBonus.data.format %}
+          <div class="card-meta">
+            {{ attachedBonus.data.format }}
+          </div>
+        {% endif %}
+
+        <h3>
+          <a href="{{ attachedBonus.url }}">
+            {{ attachedBonus.data.bonus_label or attachedBonus.data.title }}
+          </a>
+        </h3>
+
+        {% if attachedBonus.data.description %}
+          <p>{{ attachedBonus.data.description }}</p>
+        {% endif %}
+
+        <a
+          class="card-meta"
+          href="{{ attachedBonus.url }}"
+        >
+          Open Bonus →
+        </a>
+
+      </article>
+
+    </div>
+
+  </section>
+
+  {% endif %}
+
+
+  {% set related = collections.published | inDirectory(currentSection, page.url) %}
   {% if related.length %}
   <section class="section-block article-related">
     <div class="section-heading">
       <div class="stamp">Want to Keep Going?</div>
-      <h2>More from {{ section | replace("-", " ") | title }}</h2>
+      <h2>More from {{ currentSection | sectionLabel }}</h2>
     </div>
     <div class="card-grid card-grid--related">
       {% for post in related %}

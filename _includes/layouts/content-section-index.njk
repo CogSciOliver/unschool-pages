@@ -1,0 +1,156 @@
+---
+layout: layouts/base.njk
+---
+
+{# CANON: directory-driven section index #}
+{% set currentSection = page | contentSection %}
+{% set sectionSort = index_sort or "date" %}
+{% set posts = collections.published | inDirectory(currentSection, page.url, sectionSort) %}
+
+<div class="browse-layout">
+
+  <section class="section-hero notebook-panel">
+    {% if stamp %}
+      <div class="stamp">{{ stamp }}</div>
+    {% endif %}
+
+    <h1>{{ title }}</h1>
+
+    {% if description %}
+      <p class="lede">{{ description }}</p>
+    {% endif %}
+  </section>
+
+  {% if posts.length %}
+
+    {% set newest = posts[0] %}
+    {% set newestBonus = collections.bonusContent | bonusFor(newest.data.bonus) %}
+
+    <section class="section-block">
+
+      <div class="section-heading">
+        <div class="stamp">Most Recent</div>
+        <h2>{{ featured_heading or "Fresh from the notebook" }}</h2>
+      </div>
+
+      <article class="post-card notebook-panel is-featured">
+
+        <div class="card-meta">
+          {{ newest.data.format or item_label or "Post" }}
+        </div>
+
+        <span class="hub-badge">New!</span>
+
+        <h2>
+          <a href="{{ newest.url }}">
+            {{ newest.data.title }}
+          </a>
+        </h2>
+
+        {% if newest.data.description %}
+          <p>{{ newest.data.description }}</p>
+        {% endif %}
+
+        <div class="actions">
+          <a class="card-meta" href="{{ newest.url }}">
+            {{ item_label or "Read" }} →
+          </a>
+
+          {% if newestBonus %}
+            <a class="card-meta" href="{{ newestBonus.url }}">
+              Bonus:
+              {{ newestBonus.data.bonus_label or newestBonus.data.title }}
+              →
+            </a>
+          {% endif %}
+        </div>
+
+      </article>
+
+    </section>
+
+
+    {% if posts.length > 1 %}
+
+      <section class="section-block">
+
+        <div class="section-heading">
+          <div class="stamp">
+            {{ archive_stamp or "Keep Exploring" }}
+          </div>
+
+          <h2>
+            {{ archive_heading or "More from this section" }}
+          </h2>
+        </div>
+
+        <div class="card-grid">
+
+          {% for post in posts %}
+
+            {% if not loop.first %}
+
+              {% set attachedBonus = collections.bonusContent | bonusFor(post.data.bonus) %}
+
+              <article class="post-card notebook-panel">
+
+                <div class="line-space-reset"></div>
+
+                <div class="card-meta">
+                  {{ post.data.format or item_label or "Post" }}
+                </div>
+
+                <h3>
+                  <a href="{{ post.url }}">
+                    {{ post.data.title }}
+                  </a>
+                </h3>
+
+                {% if post.data.description %}
+                  <p>{{ post.data.description }}</p>
+                {% endif %}
+
+                <div class="line-space-reset"></div>
+
+                <div class="actions">
+
+                  <a class="card-meta" href="{{ post.url }}">
+                    {{ item_label or "Read" }} →
+                  </a>
+
+                  {% if attachedBonus %}
+                    <a
+                      class="card-meta"
+                      href="{{ attachedBonus.url }}"
+                    >
+                      Bonus:
+                      {{ attachedBonus.data.bonus_label or attachedBonus.data.title }}
+                      →
+                    </a>
+                  {% endif %}
+
+                </div>
+
+              </article>
+
+            {% endif %}
+
+          {% endfor %}
+
+        </div>
+
+      </section>
+
+    {% endif %}
+
+  {% else %}
+
+    <section class="notebook-panel panel">
+      <p>
+        {{ empty_message or "Nothing has escaped the notebook yet." }}
+      </p>
+    </section>
+
+  {% endif %}
+
+</div>

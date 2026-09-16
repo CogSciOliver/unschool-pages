@@ -1,13 +1,13 @@
 ---
 layout: layouts/article.njk
 title: Neurodivergence
+date: 2026-03-22
 nav_label: Neurodivergence
 permalink: /unschooling-pta/neurodivergence/
-section: The-Unschooling-PTA
 nav_order: 1
 format: Community Note
 description: Looking how we might reframe power, agency, and what it means to be human.
-topic_hubs: ["unschooling-PTA","neurodivergence","community", "support"]
+topic_hubs: ["unschooling-pta", "neurodivergence", "community", "support"]
 ---
 
 >“Once you take autism, ADHD, dyslexia, dyspraxia and all the other ways that you can developmentally be different from the typical, you actually don’t get many typical people left. That is going to change society, but not in a bad way.”

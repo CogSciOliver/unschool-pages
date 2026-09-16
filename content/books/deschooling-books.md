@@ -1,13 +1,12 @@
 ---
 layout: layouts/article.njk
 title: Books for Deschooling Parents
+date: 2026-03-19
 nav_label: Deschooling Parents
 permalink: /books/deschooling-books/
-section: books
-nav_order: 4
 format: Book List
 description: A starter shelf for parents rebuilding trust in learning.
-topic_hubs: ["books", "deschooling", "empowering parents" ]
+topic_hubs: ["books", "deschooling", "empowering-parents"]
 ---
 ## Empowering Parents
 

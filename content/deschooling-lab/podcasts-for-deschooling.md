@@ -1,9 +1,9 @@
 ---
 layout: layouts/article.njk
 title: Deschooling Podcasts
+date: 2026-03-26
 nav_label: Deschooling Podcasts
 permalink: /deschooling-lab/deschooling-podcasts/
-section: the-lab
 format: Podcasts
 description: 
 topic_hubs: ["deschooling", "mindset"]
@@ -19,8 +19,8 @@ I recommend starting with [Akilah Richards](https://raisingfreepeople.com/about/
 
 ## Other Discussions
 
-Today my kid complained about it feeling like all they did for 3 hours was sit in their room. Yet at 7 y/o they got up, use the loo, cooked breakfast and lunch for themselves one time, dressed themselves and watched the clock to be sure they were ready before 10AM to travel to their Parkour lesson. 
+Today my kid complained about it feeling like all they did for 3 hours was sit in their room. Yet at 7 y/o they got up, used the loo, cooked breakfast and lunch for themselves one time, dressed themselves and watched the clock to be sure they were ready before 10AM to travel to their Parkour lesson.
 
 To this I say
 
-Not everything is learning, some times kids/adults just need to practice functional development ... it's what sticks not just the memoriazation or worksheets or tasks that feel like "work".  
+Not everything is learning, some times kids/adults just need to practice functional development ... it's what sticks not just the memoriazation or worksheets or tasks that feel like "work".

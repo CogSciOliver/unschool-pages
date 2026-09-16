@@ -1,9 +1,11 @@
 ---
 layout: layouts/section.njk
 title: Kitchen Science Transcript
-permalink: /bonus/kitchen-science-transcript/
-section: transcript
+date: 2026-04-02
 description: (For parents legally obligated to document their child’s day learning science.)
+permalink: /bonus/kitchen-science-transcript/
+format: Transcript
+bonus_label: "Kitchen Science Transcript"
 ---
 
 ## Reader Bonus: Research Transcript 

@@ -1,9 +1,9 @@
 ---
 layout: layouts/article.njk
 title: Unschooling FAQs
+date: 2026-03-19
 nav_label: FAQs
 permalink: /unschooling/faq/
-section: unschooling
 nav_order: 1
 format: FAQs
 description: Answers to questions I have & common questions families ask early on, later on and constantly. 

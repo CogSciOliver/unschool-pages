@@ -1,10 +1,12 @@
 ---
 layout: layouts/section.njk
 title: "When $5,000 Costs $1,287,207,000,000"
+date: 2026-09-15
+format: Real-World Math
 permalink: "/rabbit-holes/when-$5000-costs-over-1t/"
-section: rabbit-holes
 description: "A real-world math exercise for pulling apart rhetoric, propaganda, and political promises when the math doesn't math."
 image: https://substackcdn.com/image/fetch/$s_!cdr7!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F89020d28-1639-4ca2-ac3d-d4300646db2f_1672x941.png
+bonus: financial-critical-thinking-exercise
 ---
 ![decillion counting]({{ image }})
 

@@ -1,9 +1,9 @@
 ---
 layout: layouts/article.njk
 title: Creator’s Manifesto
+date: 2026-03-23
 nav_label: Manifesto
 permalink: /creator-danii-oliver/manifesto/
-section: creator-danii-oliver
 nav_order: 1
 format: Manifesto
 description: The contribution I am making to the expansion of the unschooling story as the architect of the Unschool Discoveries Universe.

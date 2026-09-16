@@ -1,9 +1,12 @@
 ---
 layout: layouts/section.njk
 title: Financial Critical Thinking Exercise
-permalink: /bonus/financial-critical-thinking-exercise/
-section: exercise
+date: 2026-09-15
+format: Exercise
 description: "What Else Haven't We Counted? A financial critical-thinking exercise for examining numbers, purchasing power, political promises, and persuasive language."
+permalink: /bonus/financial-critical-thinking-exercise/
+nav_order: 1
+bonus_label: "Financial Critical Thinking Exercise"
 ---
 [Back To The Story](/rabbit-holes/when-$5000-costs-over-1t/)
 

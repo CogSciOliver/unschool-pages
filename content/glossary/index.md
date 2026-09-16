@@ -2,7 +2,6 @@
 layout: layouts/section.njk
 title: Field Guide Glossary
 permalink: /glossary/
-section: glossary
 description: Linguistic notes for learning the language of this universe.
 ---
 
